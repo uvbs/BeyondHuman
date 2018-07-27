@@ -1,0 +1,725 @@
+﻿Log file open, 07/26/17 17:34:30
+LogInit:Display: Running engine for game: BeyondHuman
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2080519453) SRandInit(2080519453).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096357
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.26-16.34.30:713][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-16.34.30:713][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.26-16.34.30:730][  0]LogInit: Computer: DESKTOP-45O6R3R
+[2017.07.26-16.34.30:730][  0]LogInit: User: mikey
+[2017.07.26-16.34.30:730][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.26-16.34.30:730][  0]LogInit: High frequency timer resolution =3.331187 MHz
+[2017.07.26-16.34.30:731][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.07.26-16.34.30:731][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.26-16.34.30:731][  0]LogMemory: Process Physical Memory: 272.15 MB used, 272.15 MB peak
+[2017.07.26-16.34.30:731][  0]LogMemory: Process Virtual Memory: 260.86 MB used, 260.86 MB peak
+[2017.07.26-16.34.30:731][  0]LogMemory: Physical Memory: 4768.64 MB used,  11596.55 MB free, 16365.19 MB total
+[2017.07.26-16.34.30:731][  0]LogMemory: Virtual Memory: 638.49 MB used,  11596.55 MB free, 134217728.00 MB total
+[2017.07.26-16.34.30:861][  0]LogInit: Using OS detected language (en-US).
+[2017.07.26-16.34.30:861][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.26-16.34.30:865][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.26-16.34.31:898][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.26-16.34.32:443][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.07.26-16.34.32:443][  0]LogD3D11RHI:       4059/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.07.26-16.34.32:445][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.26-16.34.32:445][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.26-16.34.32:445][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.26-16.34.32:450][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.26-16.34.32:450][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.26-16.34.32:450][  0]LogWindows: EnumDisplayDevices:
+[2017.07.26-16.34.32:450][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.07.26-16.34.32:450][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.07.26-16.34.32:450][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.07.26-16.34.32:450][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.07.26-16.34.32:451][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.26-16.34.32:451][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.07.26-16.34.32:451][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.07.26-16.34.32:451][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.07.26-16.34.32:451][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.26-16.34.32:960][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.26-16.34.33:002][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.26-16.34.33:153][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal Projects/BeyondHuman/Intermediate/Shaders/WorkingDirectory/14596/).
+[2017.07.26-16.34.33:154][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mikey/AppData/Local/Temp/UnrealShaderWorkingDir/6861E0C04BF26674D4F49796A803010C/'.
+[2017.07.26-16.34.33:154][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.26-16.34.34:398][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.26-16.34.34:469][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.26-16.34.34:541][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.26-16.34.34:610][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.26-16.34.34:698][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.26-16.34.34:768][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.26-16.34.34:839][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.26-16.34.34:926][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.26-16.34.34:989][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.26-16.34.35:059][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.26-16.34.35:129][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.26-16.34.35:196][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.26-16.34.35:283][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.26-16.34.35:352][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.26-16.34.35:421][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.26-16.34.35:561][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.26-16.34.35:561][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.26-16.34.35:619][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.26-16.34.35:758][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.26-16.34.35:805][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.26-16.34.35:874][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.26-16.34.35:942][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.26-16.34.36:011][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.26-16.34.36:081][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.26-16.34.36:081][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.26-16.34.36:866][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.26-16.34.36:969][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.26-16.34.36:970][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.26-16.34.36:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.26-16.34.36:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.26-16.34.36:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.26-16.34.36:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.26-16.34.36:987][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.26-16.34.37:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.26-16.34.37:012][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.26-16.34.37:012][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.26-16.34.37:013][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-16.34.37:013][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-16.34.37:397][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-16.34.37:480][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.26-16.34.37:688][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.26-16.34.37:755][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.26-16.34.37:824][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.26-16.34.37:824][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.26-16.34.37:824][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.26-16.34.38:566][  0]LogNetVersion: BeyondHuman , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2618716030)
+[2017.07.26-16.34.38:645][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.07.26-16.34.38:733][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.048510 seconds
+[2017.07.26-16.34.38:739][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.26-16.34.38:739][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.26-16.34.38:739][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.26-16.34.38:848][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.26-16.34.42:009][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.07.26-16.34.42:051][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.26-16.34.42:105][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.26-16.34.42:882][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.26-16.34.43:496][  0]SourceControl: Info Source control is disabled
+[2017.07.26-16.34.43:498][  0]SourceControl: Info Source control is disabled
+[2017.07.26-16.34.43:566][  0]SourceControl: Info Source control is disabled
+[2017.07.26-16.34.43:635][  0]SourceControl: Info Source control is disabled
+[2017.07.26-16.34.44:747][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.26-16.34.45:717][  0]LogEngine: Initializing Engine...
+[2017.07.26-16.34.49:117][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-CC3C676A
+[2017.07.26-16.34.49:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.26-16.34.49:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.26-16.34.49:586][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.26-16.34.49:629][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-16.34.49:644][  0]LogInit: FAudioDevice initialized.
+[2017.07.26-16.34.49:700][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.26-16.34.49:719][  0]LogInit: Texture streaming: Enabled
+[2017.07.26-16.34.49:880][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.26-16.34.50:219][  0]LogInit: Transaction tracking system initialized
+[2017.07.26-16.34.50:743][  0]BlueprintLog: New page: Editor Load
+[2017.07.26-16.34.52:406][  0]LocalizationService: Info Localization service is disabled
+[2017.07.26-16.34.53:499][  0]LogConsoleResponse:Display: 
+[2017.07.26-16.34.53:683][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.26-16.34.53:683][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.26-16.34.53:725][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/' took 0.01s
+[2017.07.26-16.34.55:396][  0]SourceControl: Info Source control is disabled
+[2017.07.26-16.34.55:490][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.34.55:525][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-16.35.03:568][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.35.03:570][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.35.06:053][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.35.06:054][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.35.06:074][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.26-16.35.06:074][  0]LightingResults: New page: Lighting Build
+[2017.07.26-16.35.06:149][  0]MapCheck: New page: Map Check
+[2017.07.26-16.35.06:149][  0]LightingResults: New page: Lighting Build
+[2017.07.26-16.35.06:437][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.26-16.35.06:438][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.26-16.35.06:445][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.26-16.35.06:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.26-16.35.06:541][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.807ms to complete.
+[2017.07.26-16.35.06:541][  0]LogFileHelpers: Loading map 'Template_Default' took 0.467
+[2017.07.26-16.35.06:707][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3158_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_6d4_0///####STATCAT_Advanced####
+[2017.07.26-16.35.06:707][  0]LogCollectionManager: Loaded 0 collections in 0.001731 seconds
+[2017.07.26-16.35.06:837][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Saved/Collections/' took 0.01s
+[2017.07.26-16.35.06:837][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Developers/mikey/Collections/' took 0.01s
+[2017.07.26-16.35.06:837][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Collections/' took 0.01s
+[2017.07.26-16.35.06:837][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.26-16.35.06:850][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2343 classes and 497 folders.
+[2017.07.26-16.35.06:959][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.07.26-16.35.07:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.26-16.35.07:078][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.26-16.35.07:139][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.26-16.35.07:144][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.26-16.35.07:151][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.26-16.35.07:287][  0]LogRenderer: Reallocating scene render targets to support 1208x480 NumSamples 1 (Frame:1).
+[2017.07.26-16.35.07:407][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.26-16.35.07:498][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.26-16.35.07:498][  0]LogLoad: (Engine Initialization) Total time: 38.65 seconds
+[2017.07.26-16.35.07:498][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.07.26-16.35.07:498][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.26-16.35.07:498][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.26-16.35.07:507][  0]LogOcInput: OculusInput pre-init called
+[2017.07.26-16.35.07:507][  0]LogHMD: Starting GearVRController plugin
+[2017.07.26-16.35.07:527][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.26-16.35.07:588][  0]LogRenderer: Reallocating scene render targets to support 1208x496 NumSamples 1 (Frame:2).
+[2017.07.26-16.35.07:588][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-16.35.07:607][  1]LogAssetRegistry: Asset discovery search completed in 28.9846 seconds
+[2017.07.26-16.35.07:609][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.26-16.35.07:609][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.07.26-16.35.10:656][163]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-16.35.12:220][163]LogAIModule: Creating AISystem for world Blockout
+[2017.07.26-16.35.12:255][163]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-16.35.12:284][163]Cmd: MAP LOAD FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.26-16.35.12:284][163]LightingResults: New page: Lighting Build
+[2017.07.26-16.35.12:284][163]LoadErrors: New page: Loading map: Blockout.umap
+[2017.07.26-16.35.12:285][163]MapCheck: New page: Map Check
+[2017.07.26-16.35.12:285][163]LightingResults: New page: Lighting Build
+[2017.07.26-16.35.12:314][163]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.26-16.35.12:343][163]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.26-16.35.12:422][163]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.812ms to complete.
+[2017.07.26-16.35.12:422][163]LogFileHelpers: Loading map 'Blockout' took 0.139
+[2017.07.26-16.35.43:221][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall)
+[2017.07.26-16.35.49:303][882]LogEditorFactories: Performing atomic reimport of [E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingTall.fbx]
+[2017.07.26-16.35.49:377][882]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingTall.fbx
+[2017.07.26-16.35.49:382][882]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.26-16.35.49:386][882]LogFbx:Warning: Triangulating static mesh BuildingTall
+[2017.07.26-16.35.49:427][882]LogStaticMesh: Building static mesh BuildingTall...
+[2017.07.26-16.35.49:431][882]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/BuildingTall.BuildingTall
+[2017.07.26-16.35.49:452][882]LogEditorFactories: -- imported successfully
+[2017.07.26-16.35.49:512][882]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-16.35.50:359][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.07.26-16.35.54:549][360]LogEditorFactories: Performing atomic reimport of [E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx]
+[2017.07.26-16.35.54:613][360]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.07.26-16.35.54:619][360]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.26-16.35.54:622][360]LogFbx:Warning: Triangulating static mesh BuildingRound
+[2017.07.26-16.35.54:668][360]LogStaticMesh: Building static mesh BuildingRound...
+[2017.07.26-16.35.54:672][360]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/BuildingRound.BuildingRound
+[2017.07.26-16.35.54:692][360]LogEditorFactories: -- imported successfully
+[2017.07.26-16.35.56:553][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Blockout" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.26-16.35.58:137][425]LogSavePackage: Save=1565.65ms
+[2017.07.26-16.35.58:137][425]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Blockout8EDC02B042918563B4895BB13CF4E71B.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap'
+[2017.07.26-16.35.58:139][425]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap
+[2017.07.26-16.35.58:153][425]LogFileHelpers: Saving map 'Blockout' took 1.681
+[2017.07.26-16.35.58:174][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset" SILENT=true
+[2017.07.26-16.35.58:191][425]LogSavePackage: Save=12.48ms
+[2017.07.26-16.35.58:191][425]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound47B495B645D52E33A4A921ADFDADBFD8.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset'
+[2017.07.26-16.35.58:192][425]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset
+[2017.07.26-16.35.58:212][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingTall" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingTall.uasset" SILENT=true
+[2017.07.26-16.35.58:229][425]LogSavePackage: Save=13.11ms
+[2017.07.26-16.35.58:229][425]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingTallE8AF179149EA71078CF7D6A7735DEB92.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingTall.uasset'
+[2017.07.26-16.35.58:231][425]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingTall.uasset
+[2017.07.26-16.36.14:692][172]Cmd: EDIT COPY
+[2017.07.26-16.36.14:984][204]Cmd: EDIT PASTE
+[2017.07.26-16.36.19:772][685]Cmd: EDIT COPY
+[2017.07.26-16.36.20:068][718]Cmd: EDIT PASTE
+[2017.07.26-16.36.26:049][336]Cmd: DELETE
+[2017.07.26-16.36.26:049][336]Cmd: ACTOR DELETE
+[2017.07.26-16.36.26:056][336]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-16.36.26:211][336]LogEditorActor: Deleted 1 Actors (0.160 secs)
+[2017.07.26-16.36.29:199][658]Cmd: EDIT COPY
+[2017.07.26-16.36.29:479][688]Cmd: EDIT PASTE
+[2017.07.26-16.36.40:086][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Blockout" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.26-16.36.41:783][666]LogSavePackage: Save=1678.13ms
+[2017.07.26-16.36.41:783][666]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Blockout83586B8E42C59E9F7FD3D3B48FE9F24C.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap'
+[2017.07.26-16.36.41:786][666]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap
+[2017.07.26-16.36.41:808][666]LogFileHelpers: Saving map 'Blockout' took 1.801
+[2017.07.26-16.36.49:461][437]Cmd: EDIT COPY
+[2017.07.26-16.36.49:742][467]Cmd: EDIT PASTE
+[2017.07.26-16.36.54:115][893]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.37.10:456][664]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.37.14:570][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Blockout" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.26-16.37.16:287][959]LogSavePackage: Save=1701.54ms
+[2017.07.26-16.37.16:287][959]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BlockoutB9C4D4D146C3A2EAF4463D89A7A599AF.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap'
+[2017.07.26-16.37.16:291][959]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap
+[2017.07.26-16.37.16:320][959]LogFileHelpers: Saving map 'Blockout' took 1.831
+[2017.07.26-16.37.17:706][100]MapCheck: New page: Map Check
+[2017.07.26-16.37.17:753][100]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.26-16.37.17:754][100]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.26-16.37.19:804][100]LogEditorServer: Cleared 144 NULL BSP materials after rebuild.
+[2017.07.26-16.37.19:932][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.26-16.37.19:940][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_8, compiling. 
+[2017.07.26-16.37.19:946][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
+[2017.07.26-16.37.19:962][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.07.26-16.37.19:973][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.07.26-16.37.19:983][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x3, compiling. 
+[2017.07.26-16.37.19:992][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Stairs, compiling. 
+[2017.07.26-16.37.20:001][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete2x3, compiling. 
+[2017.07.26-16.37.20:008][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x4, compiling. 
+[2017.07.26-16.37.20:014][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x4, compiling. 
+[2017.07.26-16.37.20:022][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x2, compiling. 
+[2017.07.26-16.37.20:028][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x2, compiling. 
+[2017.07.26-16.37.20:034][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BuildingBAngled, compiling. 
+[2017.07.26-16.37.20:040][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FoorAngled, compiling. 
+[2017.07.26-16.37.20:045][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GroundAngled, compiling. 
+[2017.07.26-16.37.20:051][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x6, compiling. 
+[2017.07.26-16.37.20:057][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.07.26-16.37.20:063][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.07.26-16.37.20:068][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.07.26-16.37.20:075][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CeilingPillar, compiling. 
+[2017.07.26-16.37.21:478][100]TextureStreamingBuild:Display: Compiling optional shaders took 1.553 seconds.
+[2017.07.26-16.37.21:488][100]LogLevel:Display: Export Material TexCoord Scales took 0.010 seconds.
+[2017.07.26-16.37.21:533][100]TextureStreamingBuild:Display: Build Texture Streaming took 0.044 seconds.
+[2017.07.26-16.37.21:542][100]LightingResults: New page: Lighting Build - 26 Jul 2017 18:37:21
+[2017.07.26-16.37.21:586][100]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.26-16.37.21:640][100]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.26-16.37.21:652][100]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.26-16.37.22:169][100]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.26-16.37.22:169][100]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14596
+[2017.07.26-16.37.25:003][100]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.07.26-16.37.25:004][100]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.26-16.37.25:004][100]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.26-16.37.25:004][100]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.26-16.37.25:004][100]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.26-16.37.25:004][100]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.26-16.37.25:299][100]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.26-16.37.25:299][100]MapCheck: New page: Blockout - 26 Jul 2017 18:37:25
+[2017.07.26-16.37.25:300][100]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.07.26-16.37.25:380][100]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 80.845ms to complete.
+[2017.07.26-16.37.25:402][100]LogEditorBuildUtils: Build time 0:07
+[2017.07.26-16.37.30:676][333]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.37.30:676][333]LightingResults: Info <None> Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.37.32:083][399]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.37.32:104][400]LightingResults: Info <None> Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.37.32:681][410]Job is a success!
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.07.26-16.37.33:907][411]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.07.26-16.37.33:998][411]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2017.07.26-16.37.33:998][411]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2017.07.26-16.37.34:045][411]Lightmass on DESKTOP-45O6R3R: 7.46 sec total, 142 ms importing, 50 ms setup, 660 ms photons, 6.57 sec processing, 0 ms extra exporting [976/976 mappings]. Threads: 45.8 sec total, 28.2 sec processing.
+[2017.07.26-16.37.34:108][411]LogStaticLightingSystem: Illumination: 12.2 sec (559 ms encoding lightmaps, 89 ms encoding shadowmaps)
+[2017.07.26-16.37.34:108][411]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 4 textures
+[2017.07.26-16.37.34:108][411]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2017.07.26-16.37.35:010][411]DumpUnbuiltLightIteractions
+[2017.07.26-16.37.35:010][411]Lights with unbuilt interactions: 0
+[2017.07.26-16.37.35:010][411]
+[2017.07.26-16.37.35:010][411]Primitives with unbuilt interactions: 0
+[2017.07.26-16.37.35:024][412]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.26-16.37.35:025][412]MapCheck: New page: Blockout - 26 Jul 2017 18:37:35
+[2017.07.26-16.37.35:113][412]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.817ms to complete.
+[2017.07.26-16.40.29:525][ 63]Cmd: POLY SELECT ADJACENT ALL
+[2017.07.26-16.41.07:230][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.07.26-16.41.20:887][124]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.41.25:855][652]MapCheck: New page: Map Check
+[2017.07.26-16.41.25:904][652]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.26-16.41.25:908][652]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.26-16.41.28:029][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.26-16.41.28:036][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_122, compiling. 
+[2017.07.26-16.41.28:042][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_121, compiling. 
+[2017.07.26-16.41.28:063][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.07.26-16.41.28:077][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.07.26-16.41.28:088][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x3, compiling. 
+[2017.07.26-16.41.28:095][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Stairs, compiling. 
+[2017.07.26-16.41.28:101][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete2x3, compiling. 
+[2017.07.26-16.41.28:107][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x4, compiling. 
+[2017.07.26-16.41.28:115][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x4, compiling. 
+[2017.07.26-16.41.28:120][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x2, compiling. 
+[2017.07.26-16.41.28:126][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x2, compiling. 
+[2017.07.26-16.41.28:132][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BuildingBAngled, compiling. 
+[2017.07.26-16.41.28:138][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FoorAngled, compiling. 
+[2017.07.26-16.41.28:144][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GroundAngled, compiling. 
+[2017.07.26-16.41.28:153][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x6, compiling. 
+[2017.07.26-16.41.28:159][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.07.26-16.41.28:167][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.07.26-16.41.28:175][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.07.26-16.41.28:182][652]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CeilingPillar, compiling. 
+[2017.07.26-16.41.29:598][652]TextureStreamingBuild:Display: Compiling optional shaders took 1.573 seconds.
+[2017.07.26-16.41.29:607][652]LogLevel:Display: Export Material TexCoord Scales took 0.009 seconds.
+[2017.07.26-16.41.29:652][652]TextureStreamingBuild:Display: Build Texture Streaming took 0.045 seconds.
+[2017.07.26-16.41.29:664][652]LightingResults: New page: Lighting Build - 26 Jul 2017 18:41:29
+[2017.07.26-16.41.29:680][652]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.26-16.41.29:683][652]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.26-16.41.29:683][652]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.26-16.41.29:684][652]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.26-16.41.29:684][652]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14596
+[2017.07.26-16.41.34:207][652]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.07.26-16.41.34:209][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.26-16.41.34:209][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.26-16.41.34:209][652]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.26-16.41.34:209][652]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.26-16.41.34:209][652]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.26-16.41.34:425][652]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.26-16.41.34:425][652]MapCheck: New page: Blockout - 26 Jul 2017 18:41:34
+[2017.07.26-16.41.34:510][652]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.178ms to complete.
+[2017.07.26-16.41.34:533][652]LogEditorBuildUtils: Build time 0:08
+[2017.07.26-16.41.37:993][805]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.41.37:993][805]LightingResults: Info <None> Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.41.38:670][837]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.41.38:670][837]LightingResults: Info <None> Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.41.38:910][849]Job is a success!
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.07.26-16.41.39:806][850]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.07.26-16.41.39:889][850]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2017.07.26-16.41.39:889][850]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2017.07.26-16.41.39:952][850]Lightmass on DESKTOP-45O6R3R: 4.37 sec total, 146 ms importing, 51 ms setup, 411 ms photons, 3.73 sec processing, 0 ms extra exporting [976/976 mappings]. Threads: 25.9 sec total, 14.6 sec processing.
+[2017.07.26-16.41.40:014][850]LogStaticLightingSystem: Illumination: 10.3 sec (527 ms encoding lightmaps, 78 ms encoding shadowmaps)
+[2017.07.26-16.41.40:014][850]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 4 textures
+[2017.07.26-16.41.40:014][850]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2017.07.26-16.41.40:212][850]DumpUnbuiltLightIteractions
+[2017.07.26-16.41.40:212][850]Lights with unbuilt interactions: 0
+[2017.07.26-16.41.40:212][850]
+[2017.07.26-16.41.40:212][850]Primitives with unbuilt interactions: 0
+[2017.07.26-16.41.40:240][851]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.26-16.41.40:240][851]MapCheck: New page: Blockout - 26 Jul 2017 18:41:40
+[2017.07.26-16.41.40:326][851]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.346ms to complete.
+[2017.07.26-16.42.41:431][914]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.42.54:442][331]MapCheck: New page: Map Check
+[2017.07.26-16.42.54:486][331]Cmd: MAP REBUILD ALLVISIBLE
+[2017.07.26-16.42.54:487][331]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.07.26-16.42.56:580][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.07.26-16.42.56:587][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_128, compiling. 
+[2017.07.26-16.42.56:593][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_127, compiling. 
+[2017.07.26-16.42.56:613][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.07.26-16.42.56:628][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.07.26-16.42.56:640][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x3, compiling. 
+[2017.07.26-16.42.56:647][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Stairs, compiling. 
+[2017.07.26-16.42.56:655][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete2x3, compiling. 
+[2017.07.26-16.42.56:661][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x4, compiling. 
+[2017.07.26-16.42.56:668][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x4, compiling. 
+[2017.07.26-16.42.56:675][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Foor4x2, compiling. 
+[2017.07.26-16.42.56:681][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ground4x2, compiling. 
+[2017.07.26-16.42.56:687][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BuildingBAngled, compiling. 
+[2017.07.26-16.42.56:693][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy FoorAngled, compiling. 
+[2017.07.26-16.42.56:699][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GroundAngled, compiling. 
+[2017.07.26-16.42.56:705][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WallConcrete4x6, compiling. 
+[2017.07.26-16.42.56:713][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.07.26-16.42.56:719][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.07.26-16.42.56:725][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.07.26-16.42.56:735][331]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CeilingPillar, compiling. 
+[2017.07.26-16.42.58:124][331]TextureStreamingBuild:Display: Compiling optional shaders took 1.548 seconds.
+[2017.07.26-16.42.58:135][331]LogLevel:Display: Export Material TexCoord Scales took 0.011 seconds.
+[2017.07.26-16.42.58:178][331]TextureStreamingBuild:Display: Build Texture Streaming took 0.043 seconds.
+[2017.07.26-16.42.58:188][331]LightingResults: New page: Lighting Build - 26 Jul 2017 18:42:58
+[2017.07.26-16.42.58:204][331]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.26-16.42.58:206][331]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.26-16.42.58:206][331]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.26-16.42.58:207][331]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.26-16.42.58:207][331]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14596
+[2017.07.26-16.43.02:732][331]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.07.26-16.43.02:735][331]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.26-16.43.02:735][331]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.26-16.43.02:735][331]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.26-16.43.02:735][331]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.26-16.43.02:735][331]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.26-16.43.02:980][331]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.07.26-16.43.02:980][331]MapCheck: New page: Blockout - 26 Jul 2017 18:43:02
+[2017.07.26-16.43.03:065][331]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.332ms to complete.
+[2017.07.26-16.43.03:088][331]LogEditorBuildUtils: Build time 0:08
+[2017.07.26-16.43.06:468][484]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.43.06:468][484]LightingResults: Info <None> Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.43.07:080][513]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2017.07.26-16.43.07:080][513]LightingResults: Info <None> Lightmap UV are overlapping by 5.9%. Please adjust content - Enable Error Coloring to visualize.
+[2017.07.26-16.43.07:289][524]Job is a success!
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.07.26-16.43.08:185][525]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.07.26-16.43.08:264][525]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2017.07.26-16.43.08:264][525]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 512X512)
+[2017.07.26-16.43.08:326][525]Lightmass on DESKTOP-45O6R3R: 4.11 sec total, 137 ms importing, 47 ms setup, 395 ms photons, 3.49 sec processing, 0 ms extra exporting [976/976 mappings]. Threads: 24.3 sec total, 13.5 sec processing.
+[2017.07.26-16.43.08:390][525]LogStaticLightingSystem: Illumination: 10.1 sec (530 ms encoding lightmaps, 75 ms encoding shadowmaps)
+[2017.07.26-16.43.08:390][525]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 4 textures
+[2017.07.26-16.43.08:390][525]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2017.07.26-16.43.08:738][525]DumpUnbuiltLightIteractions
+[2017.07.26-16.43.08:738][525]Lights with unbuilt interactions: 0
+[2017.07.26-16.43.08:738][525]
+[2017.07.26-16.43.08:738][525]Primitives with unbuilt interactions: 0
+[2017.07.26-16.43.08:763][526]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.26-16.43.08:763][526]MapCheck: New page: Blockout - 26 Jul 2017 18:43:08
+[2017.07.26-16.43.08:852][526]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.983ms to complete.
+[2017.07.26-16.43.25:207][246]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.43.34:665][316]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-16.44.27:163][648]Cmd: POLY SELECT MATCHING BRUSH
+[2017.07.26-16.44.36:243][147]Cmd: POLY SELECT MATCHING BRUSH
+[2017.07.26-16.45.33:476][322]LogStaticMesh: Building static mesh BoxBrush37...
+[2017.07.26-16.45.33:476][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:478][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush37
+[2017.07.26-16.45.33:479][322]LogStaticMesh: Building static mesh BoxBrush40...
+[2017.07.26-16.45.33:479][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:481][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush40
+[2017.07.26-16.45.33:482][322]LogStaticMesh: Building static mesh BoxBrush41...
+[2017.07.26-16.45.33:482][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:484][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush41
+[2017.07.26-16.45.33:485][322]LogStaticMesh: Building static mesh BoxBrush42...
+[2017.07.26-16.45.33:485][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:486][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush42
+[2017.07.26-16.45.33:487][322]LogStaticMesh: Building static mesh BoxBrush44...
+[2017.07.26-16.45.33:487][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:489][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush44
+[2017.07.26-16.45.33:490][322]LogStaticMesh: Building static mesh BoxBrush43_67...
+[2017.07.26-16.45.33:490][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:493][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush43_67
+[2017.07.26-16.45.33:494][322]LogStaticMesh: Building static mesh BoxBrush48...
+[2017.07.26-16.45.33:494][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:496][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush48
+[2017.07.26-16.45.33:497][322]LogStaticMesh: Building static mesh BoxBrush47...
+[2017.07.26-16.45.33:497][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:504][322]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.BoxBrush47
+[2017.07.26-16.45.33:505][322]LogStaticMesh: Building static mesh BoxBrush51...
+[2017.07.26-16.45.33:505][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:509][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush51
+[2017.07.26-16.45.33:510][322]LogStaticMesh: Building static mesh BoxBrush52...
+[2017.07.26-16.45.33:510][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:511][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush52
+[2017.07.26-16.45.33:513][322]LogStaticMesh: Building static mesh BoxBrush54...
+[2017.07.26-16.45.33:513][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:514][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush54
+[2017.07.26-16.45.33:515][322]LogStaticMesh: Building static mesh BoxBrush55...
+[2017.07.26-16.45.33:515][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:517][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush55
+[2017.07.26-16.45.33:518][322]LogStaticMesh: Building static mesh BoxBrush49_89...
+[2017.07.26-16.45.33:518][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:520][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush49_89
+[2017.07.26-16.45.33:521][322]LogStaticMesh: Building static mesh BoxBrush50_91...
+[2017.07.26-16.45.33:521][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:523][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush50_91
+[2017.07.26-16.45.33:523][322]LogStaticMesh: Building static mesh BoxBrush56...
+[2017.07.26-16.45.33:523][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:526][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush56
+[2017.07.26-16.45.33:527][322]LogStaticMesh: Building static mesh BoxBrush58...
+[2017.07.26-16.45.33:527][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:529][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush58
+[2017.07.26-16.45.33:529][322]LogStaticMesh: Building static mesh BoxBrush62...
+[2017.07.26-16.45.33:529][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:531][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush62
+[2017.07.26-16.45.33:532][322]LogStaticMesh: Building static mesh BoxBrush65...
+[2017.07.26-16.45.33:532][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:534][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush65
+[2017.07.26-16.45.33:535][322]LogStaticMesh: Building static mesh BoxBrush66_119...
+[2017.07.26-16.45.33:535][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:537][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush66_119
+[2017.07.26-16.45.33:538][322]LogStaticMesh: Building static mesh BoxBrush68_121...
+[2017.07.26-16.45.33:538][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:540][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush68_121
+[2017.07.26-16.45.33:541][322]LogStaticMesh: Building static mesh BoxBrush136...
+[2017.07.26-16.45.33:541][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:542][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush136
+[2017.07.26-16.45.33:542][322]LogStaticMesh: Building static mesh BoxBrush59...
+[2017.07.26-16.45.33:543][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:545][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush59
+[2017.07.26-16.45.33:546][322]LogStaticMesh: Building static mesh BoxBrush87...
+[2017.07.26-16.45.33:546][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:548][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush87
+[2017.07.26-16.45.33:549][322]LogStaticMesh: Building static mesh BoxBrush57_311...
+[2017.07.26-16.45.33:549][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:551][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush57_311
+[2017.07.26-16.45.33:552][322]LogStaticMesh: Building static mesh BoxBrush60_313...
+[2017.07.26-16.45.33:552][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:553][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush60_313
+[2017.07.26-16.45.33:554][322]LogStaticMesh: Building static mesh BoxBrush117...
+[2017.07.26-16.45.33:554][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:556][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush117
+[2017.07.26-16.45.33:556][322]LogStaticMesh: Building static mesh BoxBrush46...
+[2017.07.26-16.45.33:556][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:558][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush46
+[2017.07.26-16.45.33:559][322]LogStaticMesh: Building static mesh BoxBrush67...
+[2017.07.26-16.45.33:559][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:563][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush67
+[2017.07.26-16.45.33:564][322]LogStaticMesh: Building static mesh BoxBrush63...
+[2017.07.26-16.45.33:565][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:567][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush63
+[2017.07.26-16.45.33:568][322]LogStaticMesh: Building static mesh BoxBrush64...
+[2017.07.26-16.45.33:568][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:571][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush64
+[2017.07.26-16.45.33:571][322]LogStaticMesh: Building static mesh BoxBrush69...
+[2017.07.26-16.45.33:571][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:573][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush69
+[2017.07.26-16.45.33:573][322]LogStaticMesh: Building static mesh BoxBrush71...
+[2017.07.26-16.45.33:573][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:575][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush71
+[2017.07.26-16.45.33:576][322]LogStaticMesh: Building static mesh BoxBrush72...
+[2017.07.26-16.45.33:576][322]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.26-16.45.33:579][322]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.BoxBrush72
+[2017.07.26-16.45.33:580][322]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.07.26-16.47.21:423][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Blockout" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.26-16.47.23:403][729]LogSavePackage: Save=1970.14ms
+[2017.07.26-16.47.23:403][729]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Blockout_Auto1D48B50E84FD5F8F7A0BCCFAB48EE720A.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_Auto1.umap'
+[2017.07.26-16.47.23:405][729]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_Auto1.umap
+[2017.07.26-16.47.23:406][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Blockout' took 2.000
+[2017.07.26-16.47.23:406][729]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.000
+[2017.07.26-16.47.23:410][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Blockout_BuiltData] ([1] browsable assets)...
+[2017.07.26-16.47.23:410][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Blockout_BuiltData]
+[2017.07.26-16.47.23:410][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Blockout_BuiltData" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.26-16.47.23:441][729]LogSavePackage: Save=17.05ms
+[2017.07.26-16.47.23:441][729]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Blockout_BuiltData_Auto1F4E7944540C16DE90416E9A89B730AE8.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_BuiltData_Auto1.uasset'
+[2017.07.26-16.47.23:443][729]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Blockout_BuiltData_Auto1.uasset
+[2017.07.26-16.47.23:443][729]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.07.26-17.03.29:201][762]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/Ground.fbx)
+[2017.07.26-17.03.29:212][762]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.26-17.03.29:212][762]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.26-17.03.29:212][762]LogFbx: ItemName: Model, ItemCount : 1
+[2017.07.26-17.03.29:212][762]LogFbx: ItemName: Material, ItemCount : 1
+[2017.07.26-17.03.29:217][762]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/Ground.fbx
+[2017.07.26-17.03.29:223][762]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.26-17.03.30:388][762]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/Ground.fbx
+[2017.07.26-17.03.30:394][762]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.26-17.03.30:397][762]LogLinker: Can't find file '/Game/Meshes/Ground'
+[2017.07.26-17.03.30:400][762]LogMaterial: Missing cached shader map for material Ground1, compiling. 
+[2017.07.26-17.03.30:434][762]LogFbx:Warning: Triangulating static mesh Ground
+[2017.07.26-17.03.30:475][762]LogStaticMesh: Building static mesh Ground...
+[2017.07.26-17.03.30:483][762]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Ground.Ground
+[2017.07.26-17.03.37:976][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_Ground" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/M_Ground.uasset" SILENT=true
+[2017.07.26-17.03.37:988][240]LogSavePackage: Save=10.82ms
+[2017.07.26-17.03.37:988][240]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_GroundAE928F8448807F87D7CDFAA8D8B7462F.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/M_Ground.uasset'
+[2017.07.26-17.03.37:989][240]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/M_Ground.uasset
+[2017.07.26-17.03.42:256][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Ground" FILE="E:/Unreal Projects/BeyondHuman/Content/Materials/M_Ground.uasset" SILENT=true
+[2017.07.26-17.03.42:269][599]LogSavePackage: Save=12.02ms
+[2017.07.26-17.03.42:269][599]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_Ground6E01D5A34579095F755D3B8C2E55864F.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Materials/M_Ground.uasset'
+[2017.07.26-17.03.42:270][599]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Materials/M_Ground.uasset
+[2017.07.26-17.03.43:411][642]LogActorFactory: Actor Factory created Ground
+[2017.07.26-17.03.43:762][660]LogActorFactory: Actor Factory created Ground
+[2017.07.26-17.03.51:176][452]Cmd: DELETE
+[2017.07.26-17.03.51:176][452]Cmd: ACTOR DELETE
+[2017.07.26-17.03.51:181][452]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.51:330][452]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2017.07.26-17.03.51:775][495]Cmd: DELETE
+[2017.07.26-17.03.51:775][495]Cmd: ACTOR DELETE
+[2017.07.26-17.03.51:781][495]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.51:928][495]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2017.07.26-17.03.52:077][503]Cmd: DELETE
+[2017.07.26-17.03.52:077][503]Cmd: ACTOR DELETE
+[2017.07.26-17.03.52:082][503]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.52:257][503]LogEditorActor: Deleted 1 Actors (0.179 secs)
+[2017.07.26-17.03.52:603][534]Cmd: DELETE
+[2017.07.26-17.03.52:603][534]Cmd: ACTOR DELETE
+[2017.07.26-17.03.52:608][534]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.52:755][534]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2017.07.26-17.03.53:086][563]Cmd: DELETE
+[2017.07.26-17.03.53:086][563]Cmd: ACTOR DELETE
+[2017.07.26-17.03.53:091][563]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.53:244][563]LogEditorActor: Deleted 1 Actors (0.158 secs)
+[2017.07.26-17.03.54:055][648]Cmd: DELETE
+[2017.07.26-17.03.54:055][648]Cmd: ACTOR DELETE
+[2017.07.26-17.03.54:060][648]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.54:213][648]LogEditorActor: Deleted 1 Actors (0.157 secs)
+[2017.07.26-17.03.54:521][675]Cmd: DELETE
+[2017.07.26-17.03.54:521][675]Cmd: ACTOR DELETE
+[2017.07.26-17.03.54:526][675]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.54:676][675]LogEditorActor: Deleted 1 Actors (0.155 secs)
+[2017.07.26-17.03.54:932][695]Cmd: DELETE
+[2017.07.26-17.03.54:932][695]Cmd: ACTOR DELETE
+[2017.07.26-17.03.54:937][695]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.55:083][695]LogEditorActor: Deleted 1 Actors (0.151 secs)
+[2017.07.26-17.03.55:350][717]Cmd: DELETE
+[2017.07.26-17.03.55:350][717]Cmd: ACTOR DELETE
+[2017.07.26-17.03.55:355][717]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.55:505][717]LogEditorActor: Deleted 1 Actors (0.155 secs)
+[2017.07.26-17.03.55:814][744]Cmd: DELETE
+[2017.07.26-17.03.55:814][744]Cmd: ACTOR DELETE
+[2017.07.26-17.03.55:819][744]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.55:968][744]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2017.07.26-17.03.59:023][ 49]Cmd: DELETE
+[2017.07.26-17.03.59:023][ 49]Cmd: ACTOR DELETE
+[2017.07.26-17.03.59:027][ 49]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.03.59:225][ 49]LogEditorActor: Deleted 1 Actors (0.202 secs)
+[2017.07.26-17.03.59:480][ 77]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-17.04.00:049][128]Cmd: DELETE
+[2017.07.26-17.04.00:049][128]Cmd: ACTOR DELETE
+[2017.07.26-17.04.00:054][128]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.00:207][128]LogEditorActor: Deleted 1 Actors (0.158 secs)
+[2017.07.26-17.04.00:610][166]Cmd: DELETE
+[2017.07.26-17.04.00:610][166]Cmd: ACTOR DELETE
+[2017.07.26-17.04.00:615][166]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.00:765][166]LogEditorActor: Deleted 1 Actors (0.154 secs)
+[2017.07.26-17.04.01:618][256]Cmd: DELETE
+[2017.07.26-17.04.01:618][256]Cmd: ACTOR DELETE
+[2017.07.26-17.04.01:623][256]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.01:776][256]LogEditorActor: Deleted 1 Actors (0.158 secs)
+[2017.07.26-17.04.02:374][316]Cmd: DELETE
+[2017.07.26-17.04.02:374][316]Cmd: ACTOR DELETE
+[2017.07.26-17.04.02:379][316]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.02:530][316]LogEditorActor: Deleted 1 Actors (0.155 secs)
+[2017.07.26-17.04.05:052][572]Cmd: DELETE
+[2017.07.26-17.04.05:052][572]Cmd: ACTOR DELETE
+[2017.07.26-17.04.05:057][572]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.05:207][572]LogEditorActor: Deleted 1 Actors (0.155 secs)
+[2017.07.26-17.04.05:393][584]Cmd: DELETE
+[2017.07.26-17.04.05:393][584]Cmd: ACTOR DELETE
+[2017.07.26-17.04.05:398][584]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.05:551][584]LogEditorActor: Deleted 1 Actors (0.157 secs)
+[2017.07.26-17.04.05:765][600]Cmd: DELETE
+[2017.07.26-17.04.05:765][600]Cmd: ACTOR DELETE
+[2017.07.26-17.04.05:770][600]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.05:939][600]LogEditorActor: Deleted 1 Actors (0.174 secs)
+[2017.07.26-17.04.06:199][621]Cmd: DELETE
+[2017.07.26-17.04.06:199][621]Cmd: ACTOR DELETE
+[2017.07.26-17.04.06:203][621]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.06:355][621]LogEditorActor: Deleted 1 Actors (0.156 secs)
+[2017.07.26-17.04.06:698][652]Cmd: DELETE
+[2017.07.26-17.04.06:698][652]Cmd: ACTOR DELETE
+[2017.07.26-17.04.06:703][652]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.06:852][652]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2017.07.26-17.04.07:800][755]Cmd: DELETE
+[2017.07.26-17.04.07:800][755]Cmd: ACTOR DELETE
+[2017.07.26-17.04.07:805][755]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.07:954][755]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2017.07.26-17.04.08:404][806]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.07.26-17.04.09:107][873]Cmd: DELETE
+[2017.07.26-17.04.09:107][873]Cmd: ACTOR DELETE
+[2017.07.26-17.04.09:112][873]LogEditorActor: Deleted Actor: Brush
+[2017.07.26-17.04.09:260][873]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2017.07.26-17.04.11:799][117]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.26-17.04.12:301][118]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.26-17.04.12:801][118]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.26-17.04.13:807][118]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.26-17.04.13:807][118]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.26-17.04.13:807][118]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:290 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2017.07.26-17.04.13:816][118]LogWindows: Windows GetLastError: The operation completed successfully. (0)

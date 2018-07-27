@@ -1,0 +1,31 @@
+{
+	"FileVersion" : 3,
+	"Version" : 2,
+	"VersionName" : "4.18.0",
+	"FriendlyName" : "Modo Bridge Plugin",
+	"Description" : "Modo Bridge provides a bi-directional live connection between Modo and Unreal Editor, allows entire scenes, or selected elements of a scene, to be pushed and updated.",
+	"Category" : "Editor",
+	"CreatedBy" : "Foundry",
+	"CreatedByURL" : "https://www.foundry.com/",
+	"DocsURL" : "https://help.thefoundry.co.uk/modo/#help/pages/appendices/unreal_modo_bridge.html",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/be8e78aa0de74c749f381030fdc57788",
+	"SupportURL" : "https://www.thefoundry.co.uk/support/",
+	"EnabledByDefault" : true,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "ModoBridge",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}

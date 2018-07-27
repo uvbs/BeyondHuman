@@ -1,0 +1,179 @@
+namespace Foundry;
+
+struct Vec3 {
+  x:float;
+  y:float;
+  z:float;
+}
+
+enum ELightType : byte
+{
+  eSpot,
+  eDirectional,
+  ePoint,
+  eArea,
+  eUndefined,
+  eMaxLightType
+}
+
+enum ETextureComponents : byte
+{
+  eInvalid = 0,
+  eR = 1,
+  eRGB = 3,
+  eRGBA = 4
+}
+
+enum ETextureFormat : byte
+{
+  eChar = 0,
+  eFloat = 1
+}
+
+enum ETextureColorCorrection : byte
+{
+  eSRGB = 0,
+  eLinear = 1
+}
+
+enum ETextureSwizzle : byte
+{
+  eRGB = 0,
+  eRGBA = 1,
+  eAAA = 2,
+  eRRR = 3,
+  eGGG = 4,
+  eBBB = 5
+}
+
+table MeshData {
+  uniqueName:string;
+  displayName:string;
+  indices:[uint];
+  vertices:[float];
+  normals:[float];
+  uvs:[float];
+  colors:[float];
+  tangents:[float];
+  matIndices:[uint];
+  materialNames:[string];
+}
+
+table CameraData {
+  uniqueName:string;
+  displayName:string;
+  position:Vec3;
+  lookAt:Vec3;
+  up:Vec3;
+  aspect:float;
+	horizontalFOV:float;
+  clipPlaneNear:float;
+  clipPlaneFar:float;
+}
+
+table LightData {
+  uniqueName:string;
+  displayName:string;
+  angleInnerCone:float;
+  angleOuterCone:float;
+  attenuationConstant:float;
+  attenuationLinear:float;
+  attenuationQuadratic:float;
+  intensity:float;
+  ambient:Vec3;
+  diffuse:Vec3;
+  specular:Vec3;
+  direction:Vec3;
+  position:Vec3;
+  type:ELightType;
+}
+
+table TextureData {
+  uniqueName:string;
+  displayName:string;
+  height:uint;
+  width:uint;
+  format:ETextureFormat;
+  components:ETextureComponents;
+  colorCorrection:ETextureColorCorrection;
+  colors:[ubyte];
+  fcolors:[float];
+}
+
+table NodeData
+{
+  uniqueName:string;
+  displayName:string;
+  transformation:[float];
+  meshes:[string];
+  cameras:[string];
+  lights:[string];
+  children:[string];
+  materialOverrideNames:[string];
+}
+
+struct TextureEffect
+{
+  uvIndex:uint;
+  wrapU:float;
+  wrapV:float;
+  swizzle:ETextureSwizzle;
+  R:float;
+  G:float;
+  B:float;
+}
+
+enum EMaterialSlot : byte
+{
+  eAmbientOcclusion = 0,
+  eBaseColor,
+  eClearCoatAmt,
+  eClearCoatRough,
+  eBump,
+  eNormal,
+  eMetallic,
+  eEmissiveColor,
+  eOpacity,
+  eRoughness,
+  eSpecular,
+  eSubsurfaceColor
+}
+
+table MaterialData
+{
+  uniqueName:string;
+  displayName:string;
+  ambientOcclusion:TextureEffect;
+  ambientOcclusionImgName:string;
+  baseColor:TextureEffect;
+  baseColorImgName:string;
+  clearCoatAmt:TextureEffect;
+  clearCoatAmtImgName:string;
+  clearCoatRough:TextureEffect;
+  clearCoatRoughImgName:string;
+  bump:TextureEffect;
+  bumpImgName:string;
+  normal:TextureEffect;
+  normalImgName:string;
+  metallic:TextureEffect;
+  metallicImgName:string;
+  emissiveColor:TextureEffect;
+  emissiveColorImgName:string;
+  opacity:TextureEffect;
+  opacityImgName:string;
+  roughness:TextureEffect;
+  roughnessImgName:string;
+  specular:TextureEffect;
+  specularImgName:string;
+  subsurfaceColor:TextureEffect;
+  subsurfaceColorImgName:string;
+  unknown:[TextureEffect];
+  unknownImgNames:[string];
+}
+
+table ConfigData
+{
+  actorUniqueNameIdent:bool;
+  assetUniqueNameIdent:bool;
+  useSubFolder:bool;
+}

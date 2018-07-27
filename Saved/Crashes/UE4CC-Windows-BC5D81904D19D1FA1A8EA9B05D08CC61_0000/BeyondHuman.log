@@ -1,0 +1,1489 @@
+﻿Log file open, 08/06/17 12:17:59
+LogInit:Display: Running engine for game: BeyondHuman
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-406617537) SRandInit(-406617537).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.095593
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.06-11.18.00:374][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.06-11.18.00:374][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.06-11.18.00:385][  0]LogInit: Computer: DESKTOP-45O6R3R
+[2017.08.06-11.18.00:385][  0]LogInit: User: mikey
+[2017.08.06-11.18.00:385][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.06-11.18.00:385][  0]LogInit: High frequency timer resolution =3.331187 MHz
+[2017.08.06-11.18.00:385][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.06-11.18.00:385][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.06-11.18.00:385][  0]LogMemory: Process Physical Memory: 272.98 MB used, 272.98 MB peak
+[2017.08.06-11.18.00:385][  0]LogMemory: Process Virtual Memory: 260.80 MB used, 260.80 MB peak
+[2017.08.06-11.18.00:385][  0]LogMemory: Physical Memory: 7545.01 MB used,  8820.18 MB free, 16365.19 MB total
+[2017.08.06-11.18.00:385][  0]LogMemory: Virtual Memory: 638.49 MB used,  8820.18 MB free, 134217728.00 MB total
+[2017.08.06-11.18.00:491][  0]LogInit: Using OS detected language (en-US).
+[2017.08.06-11.18.00:491][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.06-11.18.00:494][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.06-11.18.01:574][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.06-11.18.02:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.06-11.18.02:161][  0]LogD3D11RHI:       4059/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.08.06-11.18.02:163][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.06-11.18.02:163][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.06-11.18.02:163][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.06-11.18.02:169][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.06-11.18.02:169][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.06-11.18.02:169][  0]LogWindows: EnumDisplayDevices:
+[2017.08.06-11.18.02:170][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.06-11.18.02:170][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.06-11.18.02:170][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.06-11.18.02:170][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.06-11.18.02:171][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.06-11.18.02:171][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.06-11.18.02:171][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.06-11.18.02:171][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.06-11.18.02:171][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.06-11.18.02:688][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.06-11.18.02:740][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.06-11.18.02:887][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Unreal Projects/BeyondHuman/Intermediate/Shaders/WorkingDirectory/20488/).
+[2017.08.06-11.18.02:887][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mikey/AppData/Local/Temp/UnrealShaderWorkingDir/D143D1AA499CBBBC620E4C82A4917EE2/'.
+[2017.08.06-11.18.02:887][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.06-11.18.04:287][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.06-11.18.04:372][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.06-11.18.04:444][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.06-11.18.04:564][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.06-11.18.04:670][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.06-11.18.04:807][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.06-11.18.04:934][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.06-11.18.05:047][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.06-11.18.05:153][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.06-11.18.05:260][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.06-11.18.05:333][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.06-11.18.05:420][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.06-11.18.05:514][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.06-11.18.05:584][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.06-11.18.05:656][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.06-11.18.05:804][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.06-11.18.05:804][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.06-11.18.05:903][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.06-11.18.06:032][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.06-11.18.06:113][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.06-11.18.06:186][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.06-11.18.06:256][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.06-11.18.06:343][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.06-11.18.06:470][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.06-11.18.06:470][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.06-11.18.07:454][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.06-11.18.07:562][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.06-11.18.07:581][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.06-11.18.07:594][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.06-11.18.07:605][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.06-11.18.07:606][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.06-11.18.07:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.06-11.18.07:606][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.06-11.18.08:097][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.06-11.18.08:181][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.06-11.18.08:389][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.06-11.18.08:457][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.06-11.18.08:542][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.06-11.18.08:543][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.06-11.18.08:543][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.06-11.18.09:372][  0]LogNetVersion: BeyondHuman , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2618716030)
+[2017.08.06-11.18.09:452][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2017.08.06-11.18.09:538][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027693 seconds
+[2017.08.06-11.18.09:544][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.06-11.18.09:544][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.06-11.18.09:544][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.06-11.18.09:647][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.06-11.18.13:547][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.08.06-11.18.13:641][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.06-11.18.13:723][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.06-11.18.14:714][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.06-11.18.15:484][  0]SourceControl: Info Source control is disabled
+[2017.08.06-11.18.15:487][  0]SourceControl: Info Source control is disabled
+[2017.08.06-11.18.15:576][  0]SourceControl: Info Source control is disabled
+[2017.08.06-11.18.15:677][  0]SourceControl: Info Source control is disabled
+[2017.08.06-11.18.16:929][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.06-11.18.18:196][  0]LogEngine: Initializing Engine...
+[2017.08.06-11.18.21:725][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-CC3C676A
+[2017.08.06-11.18.21:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.06-11.18.21:991][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.06-11.18.22:221][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.06-11.18.22:264][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.06-11.18.22:283][  0]LogInit: FAudioDevice initialized.
+[2017.08.06-11.18.22:338][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/mikey/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.06-11.18.22:351][  0]LogInit: Texture streaming: Enabled
+[2017.08.06-11.18.22:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.06-11.18.22:874][  0]LogInit: Transaction tracking system initialized
+[2017.08.06-11.18.23:429][  0]BlueprintLog: New page: Editor Load
+[2017.08.06-11.18.25:204][  0]LocalizationService: Info Localization service is disabled
+[2017.08.06-11.18.26:387][  0]LogConsoleResponse:Display: 
+[2017.08.06-11.18.26:602][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.06-11.18.26:602][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.06-11.18.27:195][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/' took 0.01s
+[2017.08.06-11.18.28:555][  0]SourceControl: Info Source control is disabled
+[2017.08.06-11.18.28:555][  0]Cmd: MAP LOAD FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.06-11.18.28:556][  0]LightingResults: New page: Lighting Build
+[2017.08.06-11.18.28:626][  0]MapCheck: New page: Map Check
+[2017.08.06-11.18.28:627][  0]LightingResults: New page: Lighting Build
+[2017.08.06-11.18.30:475][  0]LogAIModule: Creating AISystem for world Meshing
+[2017.08.06-11.18.30:506][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.06-11.18.30:535][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.06-11.18.30:627][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.996ms to complete.
+[2017.08.06-11.18.30:627][  0]LogFileHelpers: Loading map 'Meshing' took 2.072
+[2017.08.06-11.18.30:758][  0]ModoBridge: Starting Extension logic
+[2017.08.06-11.18.30:843][  0]LogCollectionManager: Loaded 0 collections in 0.002022 seconds
+[2017.08.06-11.18.30:962][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Saved/Collections/' took 0.01s
+[2017.08.06-11.18.30:962][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Developers/mikey/Collections/' took 0.01s
+[2017.08.06-11.18.30:962][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Collections/' took 0.01s
+[2017.08.06-11.18.30:962][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.06-11.18.30:973][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2343 classes and 497 folders.
+[2017.08.06-11.18.31:072][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.06-11.18.31:124][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.06-11.18.31:188][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.06-11.18.31:247][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.06-11.18.31:252][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.06-11.18.31:255][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.06-11.18.31:261][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.06-11.18.31:376][  0]LogRenderer: Reallocating scene render targets to support 1208x560 NumSamples 1 (Frame:1).
+[2017.08.06-11.18.31:516][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.06-11.18.31:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.06-11.18.31:604][  0]LogLoad: (Engine Initialization) Total time: 33.18 seconds
+[2017.08.06-11.18.31:604][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.08.06-11.18.31:605][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.06-11.18.31:605][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.06-11.18.31:615][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.06-11.18.31:616][  0]LogOcInput: OculusInput pre-init called
+[2017.08.06-11.18.31:616][  0]LogHMD: Starting GearVRController plugin
+[2017.08.06-11.18.31:639][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.06-11.18.31:728][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.08.06-11.18.31:728][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.06-11.18.31:778][  1]LogAssetRegistry: Asset discovery search completed in 22.3484 seconds
+[2017.08.06-11.18.31:783][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.06-11.18.31:783][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2017.08.06-11.18.36:999][499]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2017.08.06-11.18.37:008][499]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.08.06-11.18.43:151][187]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-11.18.47:629][620]Cmd: TRANSACTION UNDO
+[2017.08.06-11.18.47:629][620]LogEditorTransaction: Undo Edit Intensity
+[2017.08.06-11.18.47:661][620]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.06-11.18.48:956][737]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.08.06-11.19.26:721][446]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.06-11.19.29:904][705]MapCheck: New page: Map Check
+[2017.08.06-11.19.29:938][705]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-11.19.29:938][705]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-11.19.30:083][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-11.19.30:093][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1571, compiling. 
+[2017.08.06-11.19.30:100][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1570, compiling. 
+[2017.08.06-11.19.30:117][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-11.19.30:131][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-11.19.30:155][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-11.19.30:165][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-11.19.30:174][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-11.19.30:183][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-11.19.30:191][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-11.19.30:198][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-11.19.30:204][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-11.19.30:212][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-11.19.30:220][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-11.19.30:227][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-11.19.30:234][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-11.19.30:240][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-11.19.30:247][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-11.19.30:252][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-11.19.30:259][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-11.19.30:267][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-11.19.30:275][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-11.19.30:284][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-11.19.30:292][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-11.19.30:301][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-11.19.30:307][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-11.19.30:314][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-11.19.30:320][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-11.19.30:328][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-11.19.30:334][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-11.19.30:341][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-11.19.30:350][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-11.19.30:358][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-11.19.30:368][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-11.19.30:377][705]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-11.19.32:056][705]TextureStreamingBuild:Display: Compiling optional shaders took 1.981 seconds.
+[2017.08.06-11.19.32:072][705]LogLevel:Display: Export Material TexCoord Scales took 0.016 seconds.
+[2017.08.06-11.19.32:094][705]TextureStreamingBuild:Display: Build Texture Streaming took 0.022 seconds.
+[2017.08.06-11.19.32:110][705]LightingResults: New page: Lighting Build - 6 Aug 2017 13:19:32
+[2017.08.06-11.19.32:175][705]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-11.19.32:249][705]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-11.19.32:297][705]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-11.19.32:842][705]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-11.19.32:842][705]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-11.19.35:740][705]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-11.19.35:990][705]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-11.19.35:991][705]MapCheck: New page: Meshing - 6 Aug 2017 13:19:35
+[2017.08.06-11.19.36:077][705]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.167ms to complete.
+[2017.08.06-11.19.36:100][705]LogEditorBuildUtils: Build time 0:06
+[2017.08.06-11.20.01:559][781]Job is a success!
+[2017.08.06-11.20.01:941][782]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.08.06-11.20.03:408][782]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.06-11.20.03:455][782]Lightmass on DESKTOP-45O6R3R: 26.1 sec total, 249 ms importing, 78 ms setup, 2.70 sec photons, 23.1 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 2:41 min total, 2:02 min processing.
+[2017.08.06-11.20.03:473][782]LogStaticLightingSystem: Illumination: 31.0 sec (1.22 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-11.20.03:473][782]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-11.20.03:473][782]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-11.20.03:752][782]DumpUnbuiltLightIteractions
+[2017.08.06-11.20.03:752][782]Lights with unbuilt interactions: 0
+[2017.08.06-11.20.03:752][782]
+[2017.08.06-11.20.03:752][782]Primitives with unbuilt interactions: 0
+[2017.08.06-11.20.03:772][783]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-11.20.03:772][783]MapCheck: New page: Meshing - 6 Aug 2017 13:20:03
+[2017.08.06-11.20.03:888][783]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.866ms to complete.
+[2017.08.06-11.21.10:066][757]Cmd: TRANSACTION UNDO
+[2017.08.06-11.21.10:066][757]LogEditorTransaction: Undo Edit Sun Angle
+[2017.08.06-11.21.11:567][845]Cmd: TRANSACTION UNDO
+[2017.08.06-11.21.11:567][845]LogEditorTransaction: Undo Edit Sun Brightness
+[2017.08.06-11.21.35:192][ 48]MapCheck: New page: Map Check
+[2017.08.06-11.21.35:222][ 48]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-11.21.35:222][ 48]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-11.21.35:303][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-11.21.35:309][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3799, compiling. 
+[2017.08.06-11.21.35:327][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3800, compiling. 
+[2017.08.06-11.21.35:336][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-11.21.35:351][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-11.21.35:362][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-11.21.35:370][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-11.21.35:376][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-11.21.35:384][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-11.21.35:390][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-11.21.35:396][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-11.21.35:402][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-11.21.35:408][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-11.21.35:414][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-11.21.35:419][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-11.21.35:425][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-11.21.35:431][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-11.21.35:438][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-11.21.35:445][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-11.21.35:453][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-11.21.35:460][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-11.21.35:467][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-11.21.35:475][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-11.21.35:482][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-11.21.35:489][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-11.21.35:496][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-11.21.35:502][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-11.21.35:508][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-11.21.35:517][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-11.21.35:523][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-11.21.35:531][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-11.21.35:539][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-11.21.35:547][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-11.21.35:555][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-11.21.35:563][ 48]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-11.21.37:238][ 48]TextureStreamingBuild:Display: Compiling optional shaders took 1.940 seconds.
+[2017.08.06-11.21.37:247][ 48]LogLevel:Display: Export Material TexCoord Scales took 0.008 seconds.
+[2017.08.06-11.21.37:268][ 48]TextureStreamingBuild:Display: Build Texture Streaming took 0.021 seconds.
+[2017.08.06-11.21.37:282][ 48]LightingResults: New page: Lighting Build - 6 Aug 2017 13:21:37
+[2017.08.06-11.21.37:288][ 48]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-11.21.37:291][ 48]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-11.21.37:291][ 48]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-11.21.37:292][ 48]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-11.21.37:292][ 48]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-11.21.41:835][ 48]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-11.21.42:035][ 48]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-11.21.42:035][ 48]MapCheck: New page: Meshing - 6 Aug 2017 13:21:42
+[2017.08.06-11.21.42:123][ 48]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.425ms to complete.
+[2017.08.06-11.21.42:146][ 48]LogEditorBuildUtils: Build time 0:06
+[2017.08.06-11.22.07:042][123]Job is a success!
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.08.06-11.22.08:822][124]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.08.06-11.22.08:846][124]Lightmass on DESKTOP-45O6R3R: 25.7 sec total, 201 ms importing, 98 ms setup, 2.68 sec photons, 22.7 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 2:39 min total, 2:02 min processing.
+[2017.08.06-11.22.08:851][124]LogStaticLightingSystem: Illumination: 31.1 sec (1.22 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-11.22.08:851][124]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-11.22.08:851][124]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-11.22.09:849][124]DumpUnbuiltLightIteractions
+[2017.08.06-11.22.09:849][124]Lights with unbuilt interactions: 0
+[2017.08.06-11.22.09:849][124]
+[2017.08.06-11.22.09:849][124]Primitives with unbuilt interactions: 0
+[2017.08.06-11.22.09:875][125]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-11.22.09:876][125]MapCheck: New page: Meshing - 6 Aug 2017 13:22:09
+[2017.08.06-11.22.10:018][125]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.377ms to complete.
+[2017.08.06-11.22.10:031][125]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (VentilationSML)
+[2017.08.06-11.28.36:961][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.06-11.28.37:371][886]LogSavePackage: Save=402.73ms
+[2017.08.06-11.28.37:371][886]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing_Auto1F055D44743204DD89CE77B96A659FFCB.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto1.umap'
+[2017.08.06-11.28.37:372][886]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto1.umap
+[2017.08.06-11.28.37:374][886]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.430
+[2017.08.06-11.28.37:374][886]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.430
+[2017.08.06-11.28.37:375][886]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Meshing_BuiltData] ([1] browsable assets)...
+[2017.08.06-11.28.37:375][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Meshing_BuiltData]
+[2017.08.06-11.28.37:375][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing_BuiltData" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.28.37:688][886]LogSavePackage: Save=81.14ms
+[2017.08.06-11.28.37:688][886]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing_BuiltData_Auto1E6030E9748B3F71A35E26C9EF0A97F78.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto1.uasset'
+[2017.08.06-11.28.37:691][886]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto1.uasset
+[2017.08.06-11.28.37:691][886]LogFileHelpers: Auto-saving content packages took 0.316
+[2017.08.06-11.47.24:878][693]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx)
+[2017.08.06-11.47.24:910][693]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.06-11.47.24:910][693]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.08.06-11.47.24:910][693]LogFbx: ItemName: Model, ItemCount : 13
+[2017.08.06-11.47.24:910][693]LogFbx: ItemName: Geometry, ItemCount : 12
+[2017.08.06-11.47.24:910][693]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.06-11.47.24:919][693]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.47.24:943][693]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.47.35:700][693]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.47.35:718][693]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.47.35:723][693]LogLinker: Can't find file '/Game/Meshes/M_BuildingRound'
+[2017.08.06-11.47.35:723][693]LogLinker: Can't find file '/Game/Meshes/M_BuildingRound'
+[2017.08.06-11.47.35:727][693]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-11.47.35:761][693]LogStaticMesh: Building static mesh BuildingRound_Brackets...
+[2017.08.06-11.47.35:779][693]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_Brackets.BuildingRound_Brackets
+[2017.08.06-11.47.35:795][693]LogStaticMesh: Building static mesh BuildingRound_StairsCurved...
+[2017.08.06-11.47.35:815][693]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_StairsCurved.BuildingRound_StairsCurved
+[2017.08.06-11.47.35:823][693]LogStaticMesh: Building static mesh BuildingRound_BackWall...
+[2017.08.06-11.47.35:834][693]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_BackWall.BuildingRound_BackWall
+[2017.08.06-11.47.35:842][693]LogStaticMesh: Building static mesh BuildingRound_FrontWall...
+[2017.08.06-11.47.35:873][693]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/BuildingRound_FrontWall.BuildingRound_FrontWall
+[2017.08.06-11.47.35:885][693]LogStaticMesh: Building static mesh BuildingRound_CircularHandrail...
+[2017.08.06-11.47.35:909][693]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_CircularHandrail.BuildingRound_CircularHandrail
+[2017.08.06-11.47.35:932][693]LogStaticMesh: Building static mesh BuildingRound_Generator...
+[2017.08.06-11.47.36:016][693]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/BuildingRound_Generator.BuildingRound_Generator
+[2017.08.06-11.47.36:057][693]LogStaticMesh: Building static mesh BuildingRound_CableBreakor...
+[2017.08.06-11.47.36:073][693]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_CableBreakor.BuildingRound_CableBreakor
+[2017.08.06-11.47.36:090][693]LogStaticMesh: Building static mesh BuildingRound_Handrail...
+[2017.08.06-11.47.36:100][693]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Handrail.BuildingRound_Handrail
+[2017.08.06-11.47.36:113][693]LogStaticMesh: Building static mesh BuildingRound_Container...
+[2017.08.06-11.47.36:142][693]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/BuildingRound_Container.BuildingRound_Container
+[2017.08.06-11.47.36:157][693]LogStaticMesh: Building static mesh BuildingRound_Platform...
+[2017.08.06-11.47.36:166][693]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Platform.BuildingRound_Platform
+[2017.08.06-11.47.36:176][693]LogStaticMesh: Building static mesh BuildingRound_Ceiling...
+[2017.08.06-11.47.36:186][693]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Ceiling.BuildingRound_Ceiling
+[2017.08.06-11.47.36:195][693]LogStaticMesh: Building static mesh BuildingRound_Pillars...
+[2017.08.06-11.47.36:209][693]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Pillars.BuildingRound_Pillars
+[2017.08.06-11.47.39:351][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.011
+[2017.08.06-11.47.39:352][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Brackets] ([1] browsable assets)...
+[2017.08.06-11.47.39:366][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Brackets.BuildingRound_Brackets]
+[2017.08.06-11.47.39:366][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Brackets]
+[2017.08.06-11.47.39:366][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Brackets" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Brackets_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:380][931]LogSavePackage: Save=13.01ms
+[2017.08.06-11.47.39:380][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Brackets_Auto236D4D9E34145A7FC202C9BA0E7AFCB1F.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Brackets_Auto2.uasset'
+[2017.08.06-11.47.39:381][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Brackets_Auto2.uasset
+[2017.08.06-11.47.39:381][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/M_BuildingRound] ([1] browsable assets)...
+[2017.08.06-11.47.39:395][931]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/M_BuildingRound.M_BuildingRound]
+[2017.08.06-11.47.39:395][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/M_BuildingRound]
+[2017.08.06-11.47.39:395][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:408][931]LogSavePackage: Save=11.45ms
+[2017.08.06-11.47.39:408][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_BuildingRound_Auto2CEFF279148679374E1FE7C90C6DF0F22.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto2.uasset'
+[2017.08.06-11.47.39:409][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto2.uasset
+[2017.08.06-11.47.39:409][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_StairsCurved] ([1] browsable assets)...
+[2017.08.06-11.47.39:423][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_StairsCurved.BuildingRound_StairsCurved]
+[2017.08.06-11.47.39:423][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_StairsCurved]
+[2017.08.06-11.47.39:437][931]LogSavePackage: Save=12.50ms
+[2017.08.06-11.47.39:437][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_StairsCurved_Auto20AF8813046CB3B13D90ADC83648F6431.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_StairsCurved_Auto2.uasset'
+[2017.08.06-11.47.39:438][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_StairsCurved_Auto2.uasset
+[2017.08.06-11.47.39:438][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_BackWall] ([1] browsable assets)...
+[2017.08.06-11.47.39:453][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_BackWall.BuildingRound_BackWall]
+[2017.08.06-11.47.39:453][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_BackWall]
+[2017.08.06-11.47.39:453][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_BackWall" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_BackWall_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:466][931]LogSavePackage: Save=12.36ms
+[2017.08.06-11.47.39:466][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_BackWall_Auto2360D57DC4FE9C8633F95B3A69C4B8E23.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_BackWall_Auto2.uasset'
+[2017.08.06-11.47.39:467][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_BackWall_Auto2.uasset
+[2017.08.06-11.47.39:467][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_FrontWall] ([1] browsable assets)...
+[2017.08.06-11.47.39:481][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_FrontWall.BuildingRound_FrontWall]
+[2017.08.06-11.47.39:481][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_FrontWall]
+[2017.08.06-11.47.39:481][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_FrontWall" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_FrontWall_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:495][931]LogSavePackage: Save=12.82ms
+[2017.08.06-11.47.39:495][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_FrontWall_Auto2ABBADA97475DE99BC3C564BB820689ED.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_FrontWall_Auto2.uasset'
+[2017.08.06-11.47.39:496][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_FrontWall_Auto2.uasset
+[2017.08.06-11.47.39:496][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_CircularHandrail] ([1] browsable assets)...
+[2017.08.06-11.47.39:510][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_CircularHandrail.BuildingRound_CircularHandrail]
+[2017.08.06-11.47.39:510][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_CircularHandrail]
+[2017.08.06-11.47.39:524][931]LogSavePackage: Save=13.67ms
+[2017.08.06-11.47.39:524][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_CircularHandrail_Auto26ADFF01E4C7D341C87402094ACFD802D.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_CircularHandrail_Auto2.uasset'
+[2017.08.06-11.47.39:525][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_CircularHandrail_Auto2.uasset
+[2017.08.06-11.47.39:525][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Generator] ([1] browsable assets)...
+[2017.08.06-11.47.39:541][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Generator.BuildingRound_Generator]
+[2017.08.06-11.47.39:541][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Generator]
+[2017.08.06-11.47.39:541][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Generator" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Generator_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:558][931]LogSavePackage: Save=16.12ms
+[2017.08.06-11.47.39:558][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Generator_Auto2A440F7664E7250D1DDE277B66F8E9079.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Generator_Auto2.uasset'
+[2017.08.06-11.47.39:559][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Generator_Auto2.uasset
+[2017.08.06-11.47.39:559][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_CableBreakor] ([1] browsable assets)...
+[2017.08.06-11.47.39:574][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_CableBreakor.BuildingRound_CableBreakor]
+[2017.08.06-11.47.39:574][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_CableBreakor]
+[2017.08.06-11.47.39:587][931]LogSavePackage: Save=12.25ms
+[2017.08.06-11.47.39:587][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_CableBreakor_Auto2E6BCE28142F3053D6565EA8CA8A28BEC.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_CableBreakor_Auto2.uasset'
+[2017.08.06-11.47.39:588][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_CableBreakor_Auto2.uasset
+[2017.08.06-11.47.39:588][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Handrail] ([1] browsable assets)...
+[2017.08.06-11.47.39:602][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Handrail.BuildingRound_Handrail]
+[2017.08.06-11.47.39:602][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Handrail]
+[2017.08.06-11.47.39:602][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Handrail" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Handrail_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:616][931]LogSavePackage: Save=12.66ms
+[2017.08.06-11.47.39:616][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Handrail_Auto26F508D4B406A35926F5A92AB8D13B5CA.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Handrail_Auto2.uasset'
+[2017.08.06-11.47.39:617][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Handrail_Auto2.uasset
+[2017.08.06-11.47.39:617][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Container] ([1] browsable assets)...
+[2017.08.06-11.47.39:631][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Container.BuildingRound_Container]
+[2017.08.06-11.47.39:631][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Container]
+[2017.08.06-11.47.39:631][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Container" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Container_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:646][931]LogSavePackage: Save=14.09ms
+[2017.08.06-11.47.39:646][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Container_Auto20C2E722045EB08EBCD74EB919C8F6D4D.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Container_Auto2.uasset'
+[2017.08.06-11.47.39:647][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Container_Auto2.uasset
+[2017.08.06-11.47.39:647][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Platform] ([1] browsable assets)...
+[2017.08.06-11.47.39:661][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Platform.BuildingRound_Platform]
+[2017.08.06-11.47.39:661][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Platform]
+[2017.08.06-11.47.39:661][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Platform" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Platform_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:674][931]LogSavePackage: Save=12.43ms
+[2017.08.06-11.47.39:674][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Platform_Auto2B20471BA49454B767E66139B10B172A7.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Platform_Auto2.uasset'
+[2017.08.06-11.47.39:675][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Platform_Auto2.uasset
+[2017.08.06-11.47.39:675][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Ceiling] ([1] browsable assets)...
+[2017.08.06-11.47.39:689][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Ceiling.BuildingRound_Ceiling]
+[2017.08.06-11.47.39:689][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Ceiling]
+[2017.08.06-11.47.39:689][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Ceiling" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Ceiling_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:703][931]LogSavePackage: Save=12.15ms
+[2017.08.06-11.47.39:703][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Ceiling_Auto2D356024A4C1F7DC4973BF39173885DFE.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Ceiling_Auto2.uasset'
+[2017.08.06-11.47.39:703][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Ceiling_Auto2.uasset
+[2017.08.06-11.47.39:704][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound_Pillars] ([1] browsable assets)...
+[2017.08.06-11.47.39:718][931]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound_Pillars.BuildingRound_Pillars]
+[2017.08.06-11.47.39:718][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound_Pillars]
+[2017.08.06-11.47.39:718][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound_Pillars" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Pillars_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-11.47.39:732][931]LogSavePackage: Save=12.85ms
+[2017.08.06-11.47.39:732][931]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Pillars_Auto24B98C9CD48AA81D053674C87FEC20CFF.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Pillars_Auto2.uasset'
+[2017.08.06-11.47.39:733][931]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Pillars_Auto2.uasset
+[2017.08.06-11.47.39:733][931]LogFileHelpers: Auto-saving content packages took 0.382
+[2017.08.06-11.47.51:784][541]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx)
+[2017.08.06-11.47.51:791][541]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.06-11.47.51:791][541]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.08.06-11.47.51:791][541]LogFbx: ItemName: Model, ItemCount : 13
+[2017.08.06-11.47.51:791][541]LogFbx: ItemName: Geometry, ItemCount : 12
+[2017.08.06-11.47.51:791][541]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.06-11.47.51:797][541]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.47.51:819][541]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.48.13:033][541]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.48.13:051][541]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.48.13:227][541]LogStaticMesh: Building static mesh BuildingRound_Brackets...
+[2017.08.06-11.48.13:243][541]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_Brackets.BuildingRound_Brackets
+[2017.08.06-11.48.13:257][541]LogStaticMesh: Building static mesh BuildingRound_StairsCurved...
+[2017.08.06-11.48.13:289][541]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/BuildingRound_StairsCurved.BuildingRound_StairsCurved
+[2017.08.06-11.48.13:297][541]LogStaticMesh: Building static mesh BuildingRound_BackWall...
+[2017.08.06-11.48.13:309][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_BackWall.BuildingRound_BackWall
+[2017.08.06-11.48.13:317][541]LogStaticMesh: Building static mesh BuildingRound_FrontWall...
+[2017.08.06-11.48.13:349][541]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/BuildingRound_FrontWall.BuildingRound_FrontWall
+[2017.08.06-11.48.13:360][541]LogStaticMesh: Building static mesh BuildingRound_CircularHandrail...
+[2017.08.06-11.48.13:382][541]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_CircularHandrail.BuildingRound_CircularHandrail
+[2017.08.06-11.48.13:401][541]LogStaticMesh: Building static mesh BuildingRound_Generator...
+[2017.08.06-11.48.13:476][541]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/BuildingRound_Generator.BuildingRound_Generator
+[2017.08.06-11.48.13:510][541]LogStaticMesh: Building static mesh BuildingRound_CableBreakor...
+[2017.08.06-11.48.13:522][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_CableBreakor.BuildingRound_CableBreakor
+[2017.08.06-11.48.13:533][541]LogStaticMesh: Building static mesh BuildingRound_Handrail...
+[2017.08.06-11.48.13:540][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Handrail.BuildingRound_Handrail
+[2017.08.06-11.48.13:550][541]LogStaticMesh: Building static mesh BuildingRound_Container...
+[2017.08.06-11.48.13:573][541]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingRound_Container.BuildingRound_Container
+[2017.08.06-11.48.13:584][541]LogStaticMesh: Building static mesh BuildingRound_Platform...
+[2017.08.06-11.48.13:591][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Platform.BuildingRound_Platform
+[2017.08.06-11.48.13:596][541]LogStaticMesh: Building static mesh BuildingRound_Ceiling...
+[2017.08.06-11.48.13:603][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Ceiling.BuildingRound_Ceiling
+[2017.08.06-11.48.13:610][541]LogStaticMesh: Building static mesh BuildingRound_Pillars...
+[2017.08.06-11.48.13:622][541]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingRound_Pillars.BuildingRound_Pillars
+[2017.08.06-11.48.13:631][541]FBXImport:Warning: Warning While importing '/Game/Meshes/BuildingRound', found 2 materials matching name 'M_BuildingRound'. Using '/Game/Materials/Blockout/M_BuildingRound'. 
+[2017.08.06-11.48.26:795][228]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx)
+[2017.08.06-11.48.26:801][228]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.06-11.48.26:801][228]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2017.08.06-11.48.26:801][228]LogFbx: ItemName: Model, ItemCount : 13
+[2017.08.06-11.48.26:801][228]LogFbx: ItemName: Geometry, ItemCount : 12
+[2017.08.06-11.48.26:801][228]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.06-11.48.26:806][228]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.48.26:824][228]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.48.43:615][228]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.48.43:633][228]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.48.43:639][228]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-11.48.43:679][228]LogStaticMesh: Building static mesh BuildingRound...
+[2017.08.06-11.48.43:987][228]LogStaticMesh: Built static mesh [0.31s] /Game/Meshes/BuildingRound.BuildingRound
+[2017.08.06-11.48.47:694][424]LogRenderer: Reallocating scene render targets to support 1208x848 NumSamples 1 (Frame:1).
+[2017.08.06-11.49.00:225][272]LogActorFactory: Actor Factory created BuildingRound
+[2017.08.06-11.49.01:453][354]LogActorFactory: Actor Factory created BuildingRound
+[2017.08.06-11.49.23:679][830]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.06-11.49.23:679][830]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.06-11.49.23:690][830]LogEditorActor: Deleted 2 Actors (0.011 secs)
+[2017.08.06-11.49.25:615][957]LogActorFactory: Actor Factory created BuildingRound
+[2017.08.06-11.49.26:096][996]LogActorFactory: Actor Factory created BuildingRound
+[2017.08.06-11.49.32:157][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2017.08.06-11.49.37:411][726]MapCheck: New page: Map Check
+[2017.08.06-11.49.37:444][726]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-11.49.37:444][726]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-11.49.37:507][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-11.49.37:514][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3802, compiling. 
+[2017.08.06-11.49.37:530][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3803, compiling. 
+[2017.08.06-11.49.37:540][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-11.49.37:555][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-11.49.37:566][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-11.49.37:575][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-11.49.37:584][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-11.49.37:591][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-11.49.37:599][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-11.49.37:606][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-11.49.37:612][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-11.49.37:618][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-11.49.37:625][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-11.49.37:631][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-11.49.37:637][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-11.49.37:644][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-11.49.37:650][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-11.49.37:658][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-11.49.37:667][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-11.49.37:676][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-11.49.37:685][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-11.49.37:692][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-11.49.37:698][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-11.49.37:705][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-11.49.37:711][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-11.49.37:717][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-11.49.37:724][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-11.49.37:730][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-11.49.37:740][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-11.49.37:748][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-11.49.37:755][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-11.49.37:764][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-11.49.37:772][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-11.49.37:781][726]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-11.49.39:450][726]TextureStreamingBuild:Display: Compiling optional shaders took 1.947 seconds.
+[2017.08.06-11.49.39:464][726]LogLevel:Display: Export Material TexCoord Scales took 0.014 seconds.
+[2017.08.06-11.49.39:486][726]TextureStreamingBuild:Display: Build Texture Streaming took 0.022 seconds.
+[2017.08.06-11.49.39:502][726]LightingResults: New page: Lighting Build - 6 Aug 2017 13:49:39
+[2017.08.06-11.49.39:509][726]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-11.49.39:511][726]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-11.49.39:511][726]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-11.49.39:512][726]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-11.49.39:512][726]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-11.49.44:037][726]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-11.49.44:380][726]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-11.49.44:380][726]MapCheck: New page: Meshing - 6 Aug 2017 13:49:44
+[2017.08.06-11.49.44:389][726]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.06-11.49.44:492][726]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 112.339ms to complete.
+[2017.08.06-11.49.44:515][726]LogEditorBuildUtils: Build time 0:07
+[2017.08.06-11.49.44:599][726]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BuildingRound, compiling. 
+[2017.08.06-11.49.44:606][726]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BuildingRound, compiling. 
+[2017.08.06-11.50.11:129][927]Job is a success!
+[2017.08.06-11.50.11:966][928]LogMaterial:Warning: Material /Game/Meshes/M_BuildingRound.M_BuildingRound needed to have new flag set bUsedWithStaticLighting !
+[2017.08.06-11.50.11:968][928]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.06-11.50.13:334][928]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.08.06-11.50.13:368][928]Lightmass on DESKTOP-45O6R3R: 27.1 sec total, 195 ms importing, 82 ms setup, 3.37 sec photons, 23.4 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 2:43 min total, 2:04 min processing.
+[2017.08.06-11.50.13:377][928]LogStaticLightingSystem: Illumination: 33.5 sec (1.33 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-11.50.13:377][928]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-11.50.13:377][928]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-11.50.14:051][928]DumpUnbuiltLightIteractions
+[2017.08.06-11.50.14:051][928]Lights with unbuilt interactions: 0
+[2017.08.06-11.50.14:051][928]
+[2017.08.06-11.50.14:051][928]Primitives with unbuilt interactions: 0
+[2017.08.06-11.50.14:082][929]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-11.50.14:082][929]MapCheck: New page: Meshing - 6 Aug 2017 13:50:14
+[2017.08.06-11.50.14:197][929]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.218ms to complete.
+[2017.08.06-11.50.32:666][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.54.51:578][677]LogEditorFactories: Performing atomic reimport of [E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx]
+[2017.08.06-11.54.51:623][677]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-11.54.51:642][677]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-11.54.51:707][677]LogStaticMesh: Building static mesh BuildingRound...
+[2017.08.06-11.54.52:015][677]LogStaticMesh: Built static mesh [0.31s] /Game/Meshes/BuildingRound.BuildingRound
+[2017.08.06-11.54.52:098][677]LogEditorFactories: -- imported successfully
+[2017.08.06-11.54.53:445][758]MapCheck: New page: Map Check
+[2017.08.06-11.54.53:476][758]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-11.54.53:476][758]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-11.54.53:641][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-11.54.53:648][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3805, compiling. 
+[2017.08.06-11.54.53:665][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3806, compiling. 
+[2017.08.06-11.54.53:676][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-11.54.53:691][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-11.54.53:703][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-11.54.53:712][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-11.54.53:721][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-11.54.53:728][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-11.54.53:734][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-11.54.53:743][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-11.54.53:750][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-11.54.53:758][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-11.54.53:765][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-11.54.53:771][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-11.54.53:778][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-11.54.53:784][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-11.54.53:791][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-11.54.53:799][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-11.54.53:807][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-11.54.53:816][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-11.54.53:826][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-11.54.53:834][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-11.54.53:840][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-11.54.53:848][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-11.54.53:855][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-11.54.53:862][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-11.54.53:870][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-11.54.53:879][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-11.54.53:888][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-11.54.53:897][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-11.54.53:905][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-11.54.53:913][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-11.54.53:922][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-11.54.53:931][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-11.54.55:646][758]TextureStreamingBuild:Display: Compiling optional shaders took 2.010 seconds.
+[2017.08.06-11.54.55:677][758]LogLevel:Display: Export Material TexCoord Scales took 0.030 seconds.
+[2017.08.06-11.54.55:801][758]TextureStreamingBuild:Display: Build Texture Streaming took 0.123 seconds.
+[2017.08.06-11.54.55:816][758]LightingResults: New page: Lighting Build - 6 Aug 2017 13:54:55
+[2017.08.06-11.54.55:826][758]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-11.54.55:828][758]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-11.54.55:828][758]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-11.54.55:829][758]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-11.54.55:829][758]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-11.55.00:413][758]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-11.55.00:706][758]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-11.55.00:706][758]MapCheck: New page: Meshing - 6 Aug 2017 13:55:00
+[2017.08.06-11.55.00:707][758]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.06-11.55.00:794][758]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 87.915ms to complete.
+[2017.08.06-11.55.00:817][758]LogEditorBuildUtils: Build time 0:07
+[2017.08.06-11.55.00:940][758]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BuildingRound, compiling. 
+[2017.08.06-11.55.00:951][758]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BuildingRound, compiling. 
+[2017.08.06-11.55.33:104][114]Job is a success!
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.08.06-11.55.34:465][115]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.08.06-11.55.34:493][115]Lightmass on DESKTOP-45O6R3R: 31.8 sec total, 214 ms importing, 88 ms setup, 3.55 sec photons, 27.9 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 3:15 min total, 2:36 min processing.
+[2017.08.06-11.55.34:502][115]LogStaticLightingSystem: Illumination: 38.6 sec (1.19 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-11.55.34:502][115]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-11.55.34:502][115]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-11.55.35:431][115]DumpUnbuiltLightIteractions
+[2017.08.06-11.55.35:431][115]Lights with unbuilt interactions: 0
+[2017.08.06-11.55.35:431][115]
+[2017.08.06-11.55.35:431][115]Primitives with unbuilt interactions: 0
+[2017.08.06-11.55.35:449][116]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-11.55.35:449][116]MapCheck: New page: Meshing - 6 Aug 2017 13:55:35
+[2017.08.06-11.55.35:550][116]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.983ms to complete.
+[2017.08.06-11.55.42:451][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.55.44:093][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.55.44:149][870]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.08.06-11.56.35:688][556]MapCheck: New page: Map Check
+[2017.08.06-11.56.35:715][556]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-11.56.35:715][556]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-11.56.35:780][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-11.56.35:787][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3808, compiling. 
+[2017.08.06-11.56.35:808][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3809, compiling. 
+[2017.08.06-11.56.35:818][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-11.56.35:833][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-11.56.35:845][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-11.56.35:853][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-11.56.35:861][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-11.56.35:868][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-11.56.35:876][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-11.56.35:884][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-11.56.35:890][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-11.56.35:897][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-11.56.35:903][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-11.56.35:910][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-11.56.35:917][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-11.56.35:926][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-11.56.35:934][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-11.56.35:944][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-11.56.35:953][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-11.56.35:960][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-11.56.35:967][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-11.56.35:973][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-11.56.35:980][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-11.56.35:986][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-11.56.35:993][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-11.56.36:000][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-11.56.36:007][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-11.56.36:014][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-11.56.36:022][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-11.56.36:030][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-11.56.36:039][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-11.56.36:047][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-11.56.36:056][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-11.56.36:066][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-11.56.37:742][556]TextureStreamingBuild:Display: Compiling optional shaders took 1.967 seconds.
+[2017.08.06-11.56.37:749][556]LogLevel:Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.08.06-11.56.37:771][556]TextureStreamingBuild:Display: Build Texture Streaming took 0.022 seconds.
+[2017.08.06-11.56.37:785][556]LightingResults: New page: Lighting Build - 6 Aug 2017 13:56:37
+[2017.08.06-11.56.37:792][556]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-11.56.37:794][556]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-11.56.37:794][556]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-11.56.37:795][556]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-11.56.37:795][556]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-11.56.42:319][556]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-11.56.42:320][556]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-11.56.42:320][556]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-11.56.42:320][556]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-11.56.42:320][556]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-11.56.42:320][556]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-11.56.42:666][556]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-11.56.42:666][556]MapCheck: New page: Meshing - 6 Aug 2017 13:56:42
+[2017.08.06-11.56.42:668][556]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.06-11.56.42:751][556]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 84.637ms to complete.
+[2017.08.06-11.56.42:773][556]LogEditorBuildUtils: Build time 0:07
+[2017.08.06-11.57.17:650][530]Job is a success!
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.08.06-11.57.19:129][531]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.08.06-11.57.19:142][531]Lightmass on DESKTOP-45O6R3R: 35.3 sec total, 227 ms importing, 84 ms setup, 4.70 sec photons, 30.3 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 3:32 min total, 2:50 min processing.
+[2017.08.06-11.57.19:162][531]LogStaticLightingSystem: Illumination: 41.3 sec (1.27 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-11.57.19:162][531]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-11.57.19:162][531]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-11.57.19:336][531]DumpUnbuiltLightIteractions
+[2017.08.06-11.57.19:336][531]Lights with unbuilt interactions: 0
+[2017.08.06-11.57.19:336][531]
+[2017.08.06-11.57.19:336][531]Primitives with unbuilt interactions: 0
+[2017.08.06-11.57.19:360][532]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-11.57.19:360][532]MapCheck: New page: Meshing - 6 Aug 2017 13:57:19
+[2017.08.06-11.57.19:455][532]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.28ms to complete.
+[2017.08.06-11.57.25:875][812]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.08.06-11.57.30:149][991]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.08.06-11.58.03:833][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.58.07:057][639]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.08.06-11.58.11:796][ 27]Cmd: TRANSACTION UNDO
+[2017.08.06-11.58.11:796][ 27]LogEditorTransaction: Undo Edit Time Of Day
+[2017.08.06-11.58.13:018][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.58.16:522][435]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2017.08.06-11.58.20:725][799]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2017.08.06-11.58.27:475][401]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.06-11.58.49:471][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.58.53:318][430]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky)
+[2017.08.06-11.58.55:901][657]LogEditorActor: Deleted Actor: Ultra_Dynamic_Sky_BP_C
+[2017.08.06-11.58.55:918][657]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.08.06-11.59.00:549][158]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-11.59.09:866][997]Cmd: TRANSACTION UNDO
+[2017.08.06-11.59.09:866][997]LogEditorTransaction: Undo Rotate Actors
+[2017.08.06-11.59.28:351][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-11.59.32:911][671]Cmd: TRANSACTION UNDO
+[2017.08.06-11.59.32:911][671]LogEditorTransaction: Undo Move Actors
+[2017.08.06-11.59.36:630][909]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2017.08.06-11.59.39:583][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2017.08.06-11.59.58:845][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.00.02:328][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.00.13:360][358]LogEditorFactories: Performing atomic reimport of [E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx]
+[2017.08.06-12.00.13:400][358]LogFbx: Loading FBX Scene from E:/Dropbox (Personal)/Docs/Projects/Beyond Human/Exports/BuildingRound.fbx
+[2017.08.06-12.00.13:419][358]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.06-12.00.13:484][358]LogStaticMesh: Building static mesh BuildingRound...
+[2017.08.06-12.00.13:837][358]LogStaticMesh: Built static mesh [0.36s] /Game/Meshes/BuildingRound.BuildingRound
+[2017.08.06-12.00.13:913][358]LogEditorFactories: -- imported successfully
+[2017.08.06-12.00.22:015][878]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.00.24:875][ 71]Cmd: TRANSACTION UNDO
+[2017.08.06-12.00.24:875][ 71]LogEditorTransaction: Undo Edit Intensity
+[2017.08.06-12.00.26:725][158]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.00.26:825][158]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.00.26:841][158]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.00.26:886][158]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.06-12.00.26:914][158]LogSlate: Took 0.001626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.06-12.00.28:545][210]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.00.28:545][210]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.00.28:545][210]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.00.35:751][674]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.00.35:775][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.06-12.00.37:051][719]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.00.37:051][719]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.00.37:051][719]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.00.40:767][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2017.08.06-12.00.41:568][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.00.42:050][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WalkwayUpper)
+[2017.08.06-12.00.42:489][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.00.49:757][489]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.00.52:843][679]Cmd: TRANSACTION UNDO
+[2017.08.06-12.00.52:843][679]LogEditorTransaction: Undo Edit Intensity
+[2017.08.06-12.00.52:979][679]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.00.54:180][719]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.00.54:180][719]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.00.54:180][719]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.01.14:929][993]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.06-12.01.23:859][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.01.32:938][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2017.08.06-12.01.46:893][955]LogEditorViewport: Clicking Background
+[2017.08.06-12.01.47:563][  1]MapCheck: New page: Map Check
+[2017.08.06-12.01.47:594][  1]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.06-12.01.47:594][  1]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.06-12.01.47:665][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.06-12.01.47:672][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.08.06-12.01.47:682][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
+[2017.08.06-12.01.47:691][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.06-12.01.47:700][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Stairs, compiling. 
+[2017.08.06-12.01.47:710][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelCorner, compiling. 
+[2017.08.06-12.01.47:720][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelSlope, compiling. 
+[2017.08.06-12.01.47:729][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CeilingPillar, compiling. 
+[2017.08.06-12.01.47:739][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallFront, compiling. 
+[2017.08.06-12.01.47:747][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallBack, compiling. 
+[2017.08.06-12.01.47:754][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallLeft, compiling. 
+[2017.08.06-12.01.47:763][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallRight, compiling. 
+[2017.08.06-12.01.47:771][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayUpper, compiling. 
+[2017.08.06-12.01.47:778][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground, compiling. 
+[2017.08.06-12.01.47:785][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingTall, compiling. 
+[2017.08.06-12.01.47:793][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TunnelRound, compiling. 
+[2017.08.06-12.01.47:800][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FuseBox, compiling. 
+[2017.08.06-12.01.47:810][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Banister, compiling. 
+[2017.08.06-12.01.47:818][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ladder, compiling. 
+[2017.08.06-12.01.47:827][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ventilation, compiling. 
+[2017.08.06-12.01.47:837][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GirderREC, compiling. 
+[2017.08.06-12.01.47:845][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayBracket, compiling. 
+[2017.08.06-12.01.47:852][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WalkwayHolder, compiling. 
+[2017.08.06-12.01.47:859][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Handrail, compiling. 
+[2017.08.06-12.01.47:866][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Barrels, compiling. 
+[2017.08.06-12.01.47:873][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingAngled, compiling. 
+[2017.08.06-12.01.47:879][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WallPillar, compiling. 
+[2017.08.06-12.01.47:887][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CrateLRG, compiling. 
+[2017.08.06-12.01.47:895][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fence, compiling. 
+[2017.08.06-12.01.47:904][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingSML, compiling. 
+[2017.08.06-12.01.47:912][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingEntrance, compiling. 
+[2017.08.06-12.01.47:921][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_LiquidTank, compiling. 
+[2017.08.06-12.01.47:930][  1]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-12.01.49:202][  1]TextureStreamingBuild:Display: Compiling optional shaders took 1.542 seconds.
+[2017.08.06-12.01.49:209][  1]LogLevel:Display: Export Material TexCoord Scales took 0.007 seconds.
+[2017.08.06-12.01.49:230][  1]TextureStreamingBuild:Display: Build Texture Streaming took 0.022 seconds.
+[2017.08.06-12.01.49:245][  1]LightingResults: New page: Lighting Build - 6 Aug 2017 14:01:49
+[2017.08.06-12.01.49:251][  1]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.06-12.01.49:254][  1]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.06-12.01.49:254][  1]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.06-12.01.49:255][  1]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.06-12.01.49:255][  1]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20488
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.06-12.01.53:778][  1]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.06-12.01.54:020][  1]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.06-12.01.54:021][  1]MapCheck: New page: Meshing - 6 Aug 2017 14:01:54
+[2017.08.06-12.01.54:108][  1]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.34ms to complete.
+[2017.08.06-12.01.54:130][  1]LogEditorBuildUtils: Build time 0:06
+[2017.08.06-12.01.58:347][ 45]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.01.58:434][ 45]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.01.58:485][ 45]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.01.58:543][ 45]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-12.02.00:082][ 45]TextureStreamingBuild:Display: Compiling optional shaders took 1.548 seconds.
+[2017.08.06-12.02.01:533][ 98]Job is a success!
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.06-12.02.02:197][ 99]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.08.06-12.02.02:234][ 99]Lightmass on DESKTOP-45O6R3R: 7.09 sec total, 204 ms importing, 85 ms setup, 619 ms photons, 6.14 sec processing, 0 ms extra exporting [140/140 mappings]. Threads: 42.8 sec total, 31.0 sec processing.
+[2017.08.06-12.02.02:250][ 99]LogStaticLightingSystem: Illumination: 12.9 sec (443 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.08.06-12.02.02:250][ 99]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.06-12.02.02:250][ 99]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.08.06-12.02.02:786][ 99]DumpUnbuiltLightIteractions
+[2017.08.06-12.02.02:786][ 99]Lights with unbuilt interactions: 0
+[2017.08.06-12.02.02:786][ 99]
+[2017.08.06-12.02.02:786][ 99]Primitives with unbuilt interactions: 0
+[2017.08.06-12.02.02:794][100]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.06-12.02.02:794][100]MapCheck: New page: Meshing - 6 Aug 2017 14:02:02
+[2017.08.06-12.02.02:891][100]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.633ms to complete.
+[2017.08.06-12.02.08:547][681]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2017.08.06-12.02.22:848][978]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.02.32:159][811]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.02.46:700][112]Cmd: TRANSACTION UNDO
+[2017.08.06-12.02.46:700][112]LogEditorTransaction: Undo Edit Properties
+[2017.08.06-12.02.47:011][131]Cmd: TRANSACTION UNDO
+[2017.08.06-12.02.47:011][131]LogEditorTransaction: Undo Edit Intensity
+[2017.08.06-12.02.48:177][235]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.08.06-12.02.50:611][463]Cmd: TRANSACTION UNDO
+[2017.08.06-12.02.50:611][463]LogEditorTransaction: Undo Edit Influence Radius
+[2017.08.06-12.02.51:725][559]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2017.08.06-12.03.02:133][496]LogEditorViewport: Clicking Background
+[2017.08.06-12.03.05:542][835]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2017.08.06-12.03.18:421][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TunnelCorner (3))
+[2017.08.06-12.03.19:113][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TunnelCorner (3))
+[2017.08.06-12.03.19:640][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TunnelCorner (3))
+[2017.08.06-12.03.20:220][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TunnelCorner (3))
+[2017.08.06-12.03.20:636][238]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.08.06-12.03.21:113][282]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.08.06-12.03.23:153][454]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2017.08.06-12.04.30:261][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.06-12.04.30:714][518]LogSavePackage: Save=446.49ms
+[2017.08.06-12.04.30:714][518]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing_Auto3B1CDC5D847C20592DF98C3B0DC95209E.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto3.umap'
+[2017.08.06-12.04.30:740][518]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto3.umap
+[2017.08.06-12.04.30:742][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.515
+[2017.08.06-12.04.30:743][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.515
+[2017.08.06-12.04.30:745][518]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Meshing_BuiltData] ([1] browsable assets)...
+[2017.08.06-12.04.30:745][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Meshing_BuiltData]
+[2017.08.06-12.04.30:745][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing_BuiltData" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-12.04.30:801][518]LogSavePackage: Save=31.75ms
+[2017.08.06-12.04.30:801][518]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing_BuiltData_Auto39B53A69F4CEA618FAD6A539BF7F03654.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto3.uasset'
+[2017.08.06-12.04.30:802][518]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_BuiltData_Auto3.uasset
+[2017.08.06-12.04.30:802][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/BuildingRound] ([1] browsable assets)...
+[2017.08.06-12.04.30:817][518]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/BuildingRound.BuildingRound]
+[2017.08.06-12.04.30:817][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/BuildingRound]
+[2017.08.06-12.04.30:817][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-12.04.30:834][518]LogSavePackage: Save=16.30ms
+[2017.08.06-12.04.30:834][518]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound_Auto3EB6A85434BB6170D1297D09155498FF5.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Auto3.uasset'
+[2017.08.06-12.04.30:835][518]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/BuildingRound_Auto3.uasset
+[2017.08.06-12.04.30:835][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/M_BuildingRound] ([1] browsable assets)...
+[2017.08.06-12.04.30:850][518]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/M_BuildingRound.M_BuildingRound]
+[2017.08.06-12.04.30:850][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/M_BuildingRound]
+[2017.08.06-12.04.30:850][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.06-12.04.30:864][518]LogSavePackage: Save=12.78ms
+[2017.08.06-12.04.30:864][518]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_BuildingRound_Auto32DA9D3284BBB7FB58AD226AE180C3869.tmp' to 'E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto3.uasset'
+[2017.08.06-12.04.30:864][518]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Meshes/M_BuildingRound_Auto3.uasset
+[2017.08.06-12.04.30:864][518]LogFileHelpers: Auto-saving content packages took 0.120
+[2017.08.06-12.06.49:691][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.06-12.06.49:962][643]LogSavePackage: Save=258.42ms
+[2017.08.06-12.06.49:962][643]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing1FD3D2A14CB332B19DB1F4B4D7794318.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2017.08.06-12.06.49:964][643]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap
+[2017.08.06-12.06.49:982][643]LogFileHelpers: Saving map 'Meshing' took 0.378
+[2017.08.06-12.06.49:983][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing_BuiltData" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing_BuiltData.uasset" SILENT=true
+[2017.08.06-12.06.50:210][643]LogSavePackage: Save=224.14ms
+[2017.08.06-12.06.50:210][643]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Meshing_BuiltData4E5F9844432741685B337E84C993B6CC.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing_BuiltData.uasset'
+[2017.08.06-12.06.50:212][643]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing_BuiltData.uasset
+[2017.08.06-12.06.50:228][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset" SILENT=true
+[2017.08.06-12.06.50:266][643]LogSavePackage: Save=37.06ms
+[2017.08.06-12.06.50:266][643]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/BuildingRound675E408748333714A4895C8A5978735D.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset'
+[2017.08.06-12.06.50:269][643]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/BuildingRound.uasset
+[2017.08.06-12.06.50:297][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset" SILENT=true
+[2017.08.06-12.06.50:312][643]LogSavePackage: Save=13.50ms
+[2017.08.06-12.06.50:312][643]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_BuildingRound367A9D6C475E9E10BA907880F561AD82.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset'
+[2017.08.06-12.06.50:313][643]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset
+[2017.08.06-12.07.04:962][172]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.07.09:566][649]Cmd: TRANSACTION UNDO
+[2017.08.06-12.07.09:566][649]LogEditorTransaction: Undo Edit Properties
+[2017.08.06-12.07.55:687][667]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.07.57:477][870]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.08.00:705][235]Cmd: TRANSACTION UNDO
+[2017.08.06-12.08.00:705][235]LogEditorTransaction: Undo Rotate Actors
+[2017.08.06-12.08.24:485][885]Cmd: TRANSACTION UNDO
+[2017.08.06-12.08.24:485][885]LogEditorTransaction: Undo Edit Light Source Angle
+[2017.08.06-12.08.50:434][706]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.09.23:371][410]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.08.06-12.09.30:793][127]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.06-12.09.30:943][130]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BeyondHuman
+[2017.08.06-12.09.30:943][130]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.06-12.09.30:943][130]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.06-12.09.30:943][130]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.06-12.09.30:943][130]LogTemp: BranchPath = DESKTOP-45O6R3R/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-45O6R3R/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.06-12.09.30:967][132]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\mikey\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.06-12.10.13:912][711]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.08.06-12.10.40:604][656]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.10.44:431][ 72]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky_BP)
+[2017.08.06-12.10.48:634][472]Cmd: TRANSACTION UNDO
+[2017.08.06-12.10.48:634][472]LogEditorTransaction: Undo Edit Time Of Day
+[2017.08.06-12.10.51:988][799]Cmd: TRANSACTION UNDO
+[2017.08.06-12.10.51:988][799]LogEditorTransaction: Undo Edit Saturation
+[2017.08.06-12.12.38:444][730]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.13.02:608][550]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky_BP)
+[2017.08.06-12.13.03:467][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.13.04:984][797]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.13.05:086][797]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.13.05:110][797]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.13.05:152][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.06-12.13.06:628][856]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.13.06:628][856]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.13.06:628][856]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.13.08:502][990]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.13.08:529][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.06-12.13.09:745][ 39]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.13.09:745][ 39]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.13.09:745][ 39]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.13.10:328][ 83]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.13.10:356][ 83]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.06-12.13.11:509][131]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.08.06-12.13.11:509][131]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.06-12.13.11:509][131]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.06-12.13.13:990][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2017.08.06-12.13.36:678][171]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.06-12.14.21:939][335]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.14.22:005][335]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.14.22:046][335]LogMaterial: Missing cached shader map for material M_BuildingRound, compiling. 
+[2017.08.06-12.14.22:126][335]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BuildingRound, compiling. 
+[2017.08.06-12.14.23:080][335]TextureStreamingBuild:Display: Compiling optional shaders took 0.961 seconds.
+[2017.08.06-12.14.30:636][ 42]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky_BP)
+[2017.08.06-12.15.04:430][732]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.04:430][732]LogEditorTransaction: Undo Edit Time Of Day
+[2017.08.06-12.15.07:295][ 29]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.07:295][ 29]LogEditorTransaction: Undo Edit Properties
+[2017.08.06-12.15.13:457][669]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.13:457][669]LogEditorTransaction: Undo Edit Saturation
+[2017.08.06-12.15.24:222][783]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.24:222][783]LogEditorTransaction: Undo Edit Sun Angle
+[2017.08.06-12.15.26:285][995]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.26:285][995]LogEditorTransaction: Undo Edit Properties
+[2017.08.06-12.15.57:650][284]Cmd: TRANSACTION UNDO
+[2017.08.06-12.15.57:650][284]LogEditorTransaction: Undo Edit Sun Highlight Radius
+[2017.08.06-12.16.01:063][579]Cmd: TRANSACTION UNDO
+[2017.08.06-12.16.01:063][579]LogEditorTransaction: Undo Edit Sun Radius
+[2017.08.06-12.17.36:502][224]Cmd: TRANSACTION UNDO
+[2017.08.06-12.17.36:502][224]LogEditorTransaction: Undo Edit Scattering Distribution
+[2017.08.06-12.18.31:658][460]Cmd: TRANSACTION UNDO
+[2017.08.06-12.18.31:658][460]LogEditorTransaction: Undo Edit Sun Brightness
+[2017.08.06-12.19.28:157][745]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.28:157][745]LogEditorTransaction: Undo Edit Fog Density
+[2017.08.06-12.19.29:858][933]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.29:858][933]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2017.08.06-12.19.31:357][105]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.31:357][105]LogEditorTransaction: Undo Edit Fog Density
+[2017.08.06-12.19.34:237][430]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.34:237][430]LogEditorTransaction: Undo Edit Fog Max Opacity
+[2017.08.06-12.19.43:793][542]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.43:793][542]LogEditorTransaction: Undo Edit Fog Density
+[2017.08.06-12.19.46:350][825]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.46:350][825]LogEditorTransaction: Undo Edit Fog Height Falloff
+[2017.08.06-12.19.48:309][ 56]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.48:309][ 56]LogEditorTransaction: Undo Edit Fog Max Opacity
+[2017.08.06-12.19.50:212][276]Cmd: TRANSACTION UNDO
+[2017.08.06-12.19.50:212][276]LogEditorTransaction: Undo Edit Start Distance
+[2017.08.06-12.20.45:343][517]Cmd: DELETE
+[2017.08.06-12.20.45:343][517]Cmd: ACTOR DELETE
+[2017.08.06-12.20.45:351][517]LogEditorActor: Deleted Actor: PointLight
+[2017.08.06-12.20.45:438][517]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2017.08.06-12.20.54:214][538]Cmd: DELETE
+[2017.08.06-12.20.54:214][538]Cmd: ACTOR DELETE
+[2017.08.06-12.20.54:215][538]LogEditorActor: Deleted Actor: PointLight
+[2017.08.06-12.20.54:225][538]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.08.06-12.21.05:390][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingRound)
+[2017.08.06-12.21.06:000][896]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.08.06-12.21.37:355][459]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.06-12.22.22:967][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.06-12.22.23:345][483]LogSavePackage: Save=363.32ms
+[2017.08.06-12.22.23:345][483]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/MeshingB1F95FAA46DB28F51A5A5DA06321A566.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2017.08.06-12.22.23:346][483]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap
+[2017.08.06-12.22.23:377][483]LogFileHelpers: Saving map 'Meshing' took 0.495
+[2017.08.06-12.22.23:408][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_BuildingRound" FILE="E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset" SILENT=true
+[2017.08.06-12.22.23:429][483]LogSavePackage: Save=13.54ms
+[2017.08.06-12.22.23:429][483]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/M_BuildingRoundE43E03A045D8A1CA5F309D9821910B5B.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset'
+[2017.08.06-12.22.23:430][483]LogSavePackage:Display: Finished SavePackage E:/Unreal Projects/BeyondHuman/Content/Meshes/M_BuildingRound.uasset
+[2017.08.06-12.23.05:247][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.05:248][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:248][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/BuildingAngled
+[2017.08.06-12.23.05:248][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.05:248][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:248][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/BuildingEntrance
+[2017.08.06-12.23.05:249][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.05:250][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Meshes/Blockout/BuildingRound.uasset.
+[2017.08.06-12.23.05:250][655]LoadErrors:Error: Error /Game/Meshes/Blockout/BuildingRound : Can't find file for asset. /Game/Meshes/Blockout/Blockout_BuildingRound
+[2017.08.06-12.23.05:250][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.05:250][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Meshes/Blockout/BuildingRound.uasset.
+[2017.08.06-12.23.05:251][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.05:251][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/Blockout_BuildingRound.Blockout_BuildingRound Referenced by BuildingRound
+[2017.08.06-12.23.05:251][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:251][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/Blockout_BuildingRound
+[2017.08.06-12.23.05:251][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.05:251][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:251][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/BuildingTall
+[2017.08.06-12.23.05:252][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:252][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:252][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/CeilingPillar
+[2017.08.06-12.23.05:252][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.05:252][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:252][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/Ground
+[2017.08.06-12.23.05:252][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.05:253][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:253][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/Stairs
+[2017.08.06-12.23.05:253][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:253][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:253][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/TunnelCorner
+[2017.08.06-12.23.05:253][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.05:254][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:254][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/TunnelSlope
+[2017.08.06-12.23.05:254][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.05:254][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:255][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WalkwayLower
+[2017.08.06-12.23.05:255][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.05:255][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:255][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WalkwayUpper
+[2017.08.06-12.23.05:255][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.05:255][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:256][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WallBack
+[2017.08.06-12.23.05:256][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.05:256][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:256][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WallFront
+[2017.08.06-12.23.05:256][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.05:256][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:257][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WallLeft
+[2017.08.06-12.23.05:257][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.05:257][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:257][655]LoadErrors:Error: Error /Game/Maps/Blockout : Can't find file for asset. /Game/Meshes/Blockout/WallRight
+[2017.08.06-12.23.05:259][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.05:259][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:259][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.05:259][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:260][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.05:260][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:261][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.05:261][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:261][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:261][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:261][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.05:262][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:262][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.05:262][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:262][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:262][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:263][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.05:263][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:263][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.05:263][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:263][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.05:264][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:264][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.05:264][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:264][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.05:264][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:265][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.05:265][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:265][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.05:265][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.05:271][655]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.06-12.23.05:277][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.05:277][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/BuildingAngled.BuildingAngled Referenced by AngledBuilding_8
+[2017.08.06-12.23.05:277][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading NULL.
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.05:278][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/BuildingEntrance.BuildingEntrance Referenced by BuildingEntrance_49
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading NULL.
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.05:278][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/BuildingTall.BuildingTall Referenced by BuildingTall_5
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading NULL.
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:278][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar2
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:278][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:279][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar3
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:279][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar4
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:279][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar5
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:279][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:279][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar6
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.05:280][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/CeilingPillar.CeilingPillar Referenced by CeilingPillar_58
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.05:280][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/Ground.Ground Referenced by Ground_2
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading NULL.
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.05:280][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/Stairs.Stairs Referenced by Stairs3_3
+[2017.08.06-12.23.05:280][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading NULL.
+[2017.08.06-12.23.05:281][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.05:281][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/Stairs.Stairs Referenced by Stairs4
+[2017.08.06-12.23.05:281][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading NULL.
+[2017.08.06-12.23.05:281][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:281][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner2
+[2017.08.06-12.23.05:281][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:281][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:281][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner3
+[2017.08.06-12.23.05:282][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:282][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:282][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner4
+[2017.08.06-12.23.05:282][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:282][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:282][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner5
+[2017.08.06-12.23.05:282][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:283][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:283][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner6
+[2017.08.06-12.23.05:283][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:283][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:283][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner7_43
+[2017.08.06-12.23.05:283][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:283][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:284][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner8_52
+[2017.08.06-12.23.05:284][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:284][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.05:284][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelCorner.TunnelCorner Referenced by TunnelCorner_32
+[2017.08.06-12.23.05:284][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.05:284][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.05:284][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/TunnelSlope.TunnelSlope Referenced by TunnelSlope_39
+[2017.08.06-12.23.05:284][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading NULL.
+[2017.08.06-12.23.05:285][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.05:285][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WalkwayUpper.WalkwayUpper Referenced by Walkway_5
+[2017.08.06-12.23.05:285][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading NULL.
+[2017.08.06-12.23.05:285][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.05:285][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WalkwayLower.WalkwayLower Referenced by WalkwayLower
+[2017.08.06-12.23.05:285][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading NULL.
+[2017.08.06-12.23.05:285][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.05:286][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WallBack.WallBack Referenced by WallBack_11
+[2017.08.06-12.23.05:286][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading NULL.
+[2017.08.06-12.23.05:286][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.05:286][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WallFront.WallFront Referenced by WallFront_55
+[2017.08.06-12.23.05:286][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading NULL.
+[2017.08.06-12.23.05:286][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.05:286][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WallLeft.WallLeft Referenced by WallLeft_29
+[2017.08.06-12.23.05:286][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading NULL.
+[2017.08.06-12.23.05:287][655]LogLinker:Warning: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.05:287][655]LoadErrors: Info Failed to load /Game/Meshes/Blockout/WallRight.WallRight Referenced by WallRight_15
+[2017.08.06-12.23.05:287][655]LogLinker:Warning: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading NULL.
+[2017.08.06-12.23.05:296][655]LogAIModule: Creating AISystem for world Blockout
+[2017.08.06-12.23.05:319][655]Cmd: MAP LOAD FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.06-12.23.05:319][655]LightingResults: New page: Lighting Build
+[2017.08.06-12.23.05:320][655]LoadErrors: New page: Loading map: Blockout.umap
+[2017.08.06-12.23.05:322][655]MapCheck: New page: Map Check
+[2017.08.06-12.23.05:322][655]LightingResults: New page: Lighting Build
+[2017.08.06-12.23.05:356][655]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.06-12.23.05:385][655]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.06-12.23.05:472][655]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.703ms to complete.
+[2017.08.06-12.23.05:472][655]LogFileHelpers: Loading map 'Blockout' took 0.154
+[2017.08.06-12.23.05:477][655]LoadErrors:Error: Error /Game/Maps/Blockout : Failed import for StaticMesh /Game/Meshes/Blockout/BuildingRound.BuildingRound [redirection] in /Game/Maps/Blockout
+[2017.08.06-12.23.17:999][967]LightingResults: New page: Lighting Build
+[2017.08.06-12.23.18:000][967]MapCheck: New page: Map Check
+[2017.08.06-12.23.18:000][967]LightingResults: New page: Lighting Build
+[2017.08.06-12.23.18:011][967]LogAIModule: Creating AISystem for world Untitled
+[2017.08.06-12.23.18:015][967]LoadErrors: New page: New Map
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.18:022][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Meshes/Blockout/BuildingRound.uasset.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Meshes/Blockout/BuildingRound.uasset.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:023][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.18:024][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:025][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.18:025][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:025][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Blockout_BuildingRound'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Blockout_BuildingRound' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:026][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:027][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.18:028][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading E:/Unreal Projects/BeyondHuman/Content/Maps/Blockout.umap.
+[2017.08.06-12.23.18:034][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingAngled'
+[2017.08.06-12.23.18:034][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingAngled' while loading NULL.
+[2017.08.06-12.23.18:034][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingEntrance'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingEntrance' while loading NULL.
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file '/Game/Meshes/Blockout/BuildingTall'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/BuildingTall' while loading NULL.
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:035][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/CeilingPillar'
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/CeilingPillar' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Ground'
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Ground' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/Stairs'
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/Stairs' while loading NULL.
+[2017.08.06-12.23.18:036][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:037][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelCorner'
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelCorner' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/TunnelSlope'
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/TunnelSlope' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayUpper'
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayUpper' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WalkwayLower'
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WalkwayLower' while loading NULL.
+[2017.08.06-12.23.18:038][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallBack'
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallBack' while loading NULL.
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallFront'
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallFront' while loading NULL.
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallLeft'
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallLeft' while loading NULL.
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file '/Game/Meshes/Blockout/WallRight'
+[2017.08.06-12.23.18:039][967]LogLinker: Can't find file for asset '/Game/Meshes/Blockout/WallRight' while loading NULL.
+[2017.08.06-12.23.18:046][967]LogAIModule: Creating AISystem for world Blockout
+[2017.08.06-12.23.19:073][967]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.406 s
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: 
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2314]
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: 
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: Stack: 
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B47E256
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B22B862
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B241E26
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F948E7D
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F1ABE99
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F419BF2
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F395E22
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F398859
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F413A75
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000409E8F57
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040A15D7B
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040839E9C
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040809835
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000408AE5E2
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004089720F
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040888391
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B4716FB
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B45B771
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B47337B
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B457AC2
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: USER32.dll!0x00000000869CBC50
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: USER32.dll!0x00000000869CB5CF
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B473BE9
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000408B9A86
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040843013
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F4A4B7F
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F93C735
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000003F93BEC6
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000307D9D11
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000030910883
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000308E5121
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000308ECFF6
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004085EB7F
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040957862
+[2017.08.06-12.23.19:073][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004095D588
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000408C3B42
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000408C4EC9
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040937775
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000409E8F57
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040A15D7B
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004095F5FD
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040839E9C
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040809835
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000408AE5E2
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004089720F
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000040888391
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B4716FB
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B45B771
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B47337B
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B457AC2
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: USER32.dll!0x00000000869CBC50
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: USER32.dll!0x00000000869CB5CF
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004B473C86
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor.exe!0x000000001122DB44
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor.exe!0x000000001121F0B0
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor.exe!0x000000001121F12A
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor.exe!0x0000000011230CF9
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: UE4Editor.exe!0x00000000112325F7
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: KERNEL32.DLL!0x00000000872A2774
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: ntdll.dll!0x0000000089230D51
+[2017.08.06-12.23.19:074][967]LogOutputDevice:Error: 
+[2017.08.06-12.23.19:074][967]LogStats:                SubmitErrorReport -  0.000 s
