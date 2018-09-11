@@ -1631,3 +1631,673 @@ LogInit: Object subsystem initialized
 [2018.09.11-14.43.18:632][273]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/WallBack1B70501841EA46DE14F6FF8CD08EEB66.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/WallBack.uasset'
 [2018.09.11-14.44.29:400][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.09.11-14.44.48:545][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.51.26:357][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-14.51.28:233][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.51.36:731][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.53.56:298][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-14.54.11:016][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-14.55.58:117][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.56.08:215][737]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 C:\Users\mikey\Downloads\mud_wet_step_marks(1).sbsar)
+[2018.09.11-14.56.10:444][737]LogSlate: Window 'Substance Import Options' being destroyed
+[2018.09.11-14.56.13:986][737]LogMaterial: Display: Missing cached shader map for material Mud_Wet_Step_Marks_MAT, compiling. 
+[2018.09.11-14.56.14:657][737]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.11-14.56.14:657][737]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.11-14.56.14:657][737]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.11-14.57.05:366][490]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.074
+[2018.09.11-14.57.05:428][490]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/mud_wet_step_marks_1_] ([1] browsable assets)...
+[2018.09.11-14.57.05:428][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/mud_wet_step_marks_1_]
+[2018.09.11-14.57.05:449][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/mud_wet_step_marks_1__Auto98F4D0D22486A396E91B6198F983F3280.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/mud_wet_step_marks_1__Auto9.uasset'
+[2018.09.11-14.57.05:452][490]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST] ([1] browsable assets)...
+[2018.09.11-14.57.05:452][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST]
+[2018.09.11-14.57.05:465][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_Auto90EB278F64D9A9F5D99FD4688C98823A5.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_Auto9.uasset'
+[2018.09.11-14.57.05:467][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor] ([1] browsable assets)...
+[2018.09.11-14.57.05:480][490]OBJ SavePackage:     Rendered thumbnail for [SubstanceTexture2D /Game/Substance/Mud_Wet_Step_Marks_INST_basecolor.Mud_Wet_Step_Marks_INST_basecolor]
+[2018.09.11-14.57.05:480][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor]
+[2018.09.11-14.57.05:533][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecoloB32119B54ED2A8E8A5213CA79FA64328.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor_Auto9.uasset'
+[2018.09.11-14.57.05:536][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_normal] ([1] browsable assets)...
+[2018.09.11-14.57.05:547][490]OBJ SavePackage:     Rendered thumbnail for [SubstanceTexture2D /Game/Substance/Mud_Wet_Step_Marks_INST_normal.Mud_Wet_Step_Marks_INST_normal]
+[2018.09.11-14.57.05:547][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_normal]
+[2018.09.11-14.57.05:579][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normal_A8D5382D84040C83E7D8555B105DD8454.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_normal_Auto9.uasset'
+[2018.09.11-14.57.05:581][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_specular] ([1] browsable assets)...
+[2018.09.11-14.57.05:593][490]OBJ SavePackage:     Rendered thumbnail for [SubstanceTexture2D /Game/Substance/Mud_Wet_Step_Marks_INST_specular.Mud_Wet_Step_Marks_INST_specular]
+[2018.09.11-14.57.05:593][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_specular]
+[2018.09.11-14.57.05:608][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specularADAB539349A66228D1B6F6AADBF51ED4.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_specular_Auto9.uasset'
+[2018.09.11-14.57.05:612][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_roughness] ([1] browsable assets)...
+[2018.09.11-14.57.05:622][490]OBJ SavePackage:     Rendered thumbnail for [SubstanceTexture2D /Game/Substance/Mud_Wet_Step_Marks_INST_roughness.Mud_Wet_Step_Marks_INST_roughness]
+[2018.09.11-14.57.05:622][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_roughness]
+[2018.09.11-14.57.05:639][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnes1EEDC9424F69F63220B6929D2FDD3B5B.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_roughness_Auto9.uasset'
+[2018.09.11-14.57.05:641][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_metallic] ([1] browsable assets)...
+[2018.09.11-14.57.05:647][490]OBJ SavePackage:     Rendered thumbnail for [SubstanceTexture2D /Game/Substance/Mud_Wet_Step_Marks_INST_metallic.Mud_Wet_Step_Marks_INST_metallic]
+[2018.09.11-14.57.05:647][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_metallic]
+[2018.09.11-14.57.05:656][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_metallic3DBED7B047824B01576463912B7E9D6E.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_metallic_Auto9.uasset'
+[2018.09.11-14.57.05:658][490]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_MAT] ([1] browsable assets)...
+[2018.09.11-14.57.05:698][490]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Substance/Mud_Wet_Step_Marks_MAT.Mud_Wet_Step_Marks_MAT]
+[2018.09.11-14.57.05:698][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_MAT]
+[2018.09.11-14.57.05:737][490]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_MAT_Auto947DBDB3F4E03BEAB187A2CAE3D2C9429.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_MAT_Auto9.uasset'
+[2018.09.11-14.57.05:738][490]LogFileHelpers: Auto-saving content packages took 0.330
+[2018.09.11-14.57.57:547][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.58.07:600][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.58.07:778][130]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/Mud_Wet_Step_Marks_INST.Mud_Wet_Step_Marks_INST
+[2018.09.11-14.58.53:109][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.59.04:642][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-14.59.24:957][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.07:787][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.17:131][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.28:293][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.38:347][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.52:762][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.02.53:902][586]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-15.02.53:937][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.02.57:394][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-15.02.58:779][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing37C1420248C01D23A873DC844FE082B6.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-15.02.58:824][586]LogFileHelpers: Saving map 'Meshing' took 4.860
+[2018.09.11-15.02.58:832][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/mud_wet_step_marks_1_" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/mud_wet_step_marks_1_.uasset" SILENT=true
+[2018.09.11-15.02.58:836][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/mud_wet_step_marks_1_274CA7274D7E6162B81498B0D76C32C7.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/mud_wet_step_marks_1_.uasset'
+[2018.09.11-15.02.58:864][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST813168894AB7CFF7C66C3B95007DC332.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST.uasset'
+[2018.09.11-15.02.58:885][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecolo6815EE5B43D46B6F3AE4F0A3DAD94F2C.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_basecolor.uasset'
+[2018.09.11-15.02.58:900][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_metallic20D2DA3345A3BEAC0D8FE2B7FED3C922.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_metallic.uasset'
+[2018.09.11-15.02.58:944][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normal0A7641084EB8E9C226C1258880316D99.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_normal.uasset'
+[2018.09.11-15.02.58:956][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnes85A2D0DC49818D7B0934C0AEF3CD5E9A.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_roughness.uasset'
+[2018.09.11-15.02.58:969][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specular50894E68497A571701D4A199795CA061.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_specular.uasset'
+[2018.09.11-15.02.58:978][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud_Wet_Step_Marks_MAT" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_MAT.uasset" SILENT=true
+[2018.09.11-15.02.58:984][586]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_MATEDB563BD46417C980E5C5BBDB6EE16DA.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_MAT.uasset'
+[2018.09.11-15.03.25:337][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.03.38:166][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.05.24:118][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.10.48:711][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.11.55:979][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.12.54:032][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing_Auto0833AB96142A806DCE61C28BB4058A86D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto0.umap'
+[2018.09.11-15.12.54:037][779]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.847
+[2018.09.11-15.12.54:038][779]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.847
+[2018.09.11-15.12.54:043][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST] ([1] browsable assets)...
+[2018.09.11-15.12.54:043][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST]
+[2018.09.11-15.12.54:055][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_Auto0343A20F0460CFF89F193CBB5E163C808.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_Auto0.uasset'
+[2018.09.11-15.12.54:056][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor] ([1] browsable assets)...
+[2018.09.11-15.12.54:056][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor]
+[2018.09.11-15.12.54:099][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecolo8756DDBE4BC1EAE1CF0E4ABBF2EEA8E4.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_basecolor_Auto0.uasset'
+[2018.09.11-15.12.54:101][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_normal] ([1] browsable assets)...
+[2018.09.11-15.12.54:101][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_normal]
+[2018.09.11-15.12.54:138][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normal_A2264B4454882659DB373FEB6108944D4.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_normal_Auto0.uasset'
+[2018.09.11-15.12.54:139][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_specular] ([1] browsable assets)...
+[2018.09.11-15.12.54:139][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_specular]
+[2018.09.11-15.12.54:188][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specularAE95888B4291AA3F3274B2B99B87E319.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_specular_Auto0.uasset'
+[2018.09.11-15.12.54:190][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud_Wet_Step_Marks_INST_roughness] ([1] browsable assets)...
+[2018.09.11-15.12.54:190][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud_Wet_Step_Marks_INST_roughness]
+[2018.09.11-15.12.54:205][779]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnes3F41004748298DB8D4C197A76C4BF590.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud_Wet_Step_Marks_INST_roughness_Auto0.uasset'
+[2018.09.11-15.12.54:207][779]LogFileHelpers: Auto-saving content packages took 0.167
+[2018.09.11-15.28.22:333][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.28.23:326][717]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-15.28.23:360][717]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.28.23:677][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-15.28.24:271][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingB7206E8D457CC4B2DBF374B7C4689460.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-15.28.24:324][717]LogFileHelpers: Saving map 'Meshing' took 0.902
+[2018.09.11-15.28.24:338][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INSTCE2A427F42D671CE821F818D06B0D1E8.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST.uasset'
+[2018.09.11-15.28.24:408][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecolo2BC8A7DB4D7AF5C5020277B94308392D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_basecolor.uasset'
+[2018.09.11-15.28.24:435][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normalA1E929664A16838D621D198DF17B83DD.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_normal.uasset'
+[2018.09.11-15.28.24:484][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnesC93C18414424148E59EFEAB4B091EC7F.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_roughness.uasset'
+[2018.09.11-15.28.24:503][717]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specular4D02073742CDF323583554B45C1DAC9D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_INST_specular.uasset'
+[2018.09.11-15.31.27:343][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.31.50:169][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/mud_wet_step_marks_1_7ACA0BD64569507223BFD398FD2B391D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/mud_wet_step_marks_1_.uasset'
+[2018.09.11-15.31.50:180][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST42BB1C5844E9E2EA5F2463B53E5919BC.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST.uasset'
+[2018.09.11-15.31.50:470][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecolo206D979D43894FF7AFA329B5172DE771.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_basecolor.uasset'
+[2018.09.11-15.31.50:493][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_metallicA7FCA2184949C626766B26B57F245C7E.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_metallic.uasset'
+[2018.09.11-15.31.50:611][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normal6E5AE31F41052431BCED01A9162C5306.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_normal.uasset'
+[2018.09.11-15.31.50:760][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnes037438D94EAA95AE8E87A08E19744B09.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_roughness.uasset'
+[2018.09.11-15.31.50:861][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specularEE13430F442B82618E9E4CA991726EAB.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_specular.uasset'
+[2018.09.11-15.31.50:948][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_MAT14978D9E42BE94C8AB1413A52CD1F1D3.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_MAT.uasset'
+[2018.09.11-15.31.50:971][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud_Wet_Step_Marks_MAT" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_MAT.uasset" SILENT=true
+[2018.09.11-15.31.51:016][950]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_MATE0DCF59844D107B62AAFBA902721A956.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud_Wet_Step_Marks_MAT.uasset'
+[2018.09.11-15.32.46:570][309]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 C:\Users\mikey\Dropbox\Docs\Resources\Textures\Substances\mud_brown.sbsar)
+[2018.09.11-15.32.48:027][309]LogSlate: Window 'Substance Import Options' being destroyed
+[2018.09.11-15.32.49:595][309]LogMaterial: Display: Missing cached shader map for material Mud_Brown_MAT, compiling. 
+[2018.09.11-15.32.49:975][309]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.11-15.32.49:975][309]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.11-15.32.49:975][309]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.11-15.32.50:099][309]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 C:\Users\mikey\Dropbox\Docs\Resources\Textures\Substances\red_gravel_iran.sbsar)
+[2018.09.11-15.32.54:479][309]LogSlate: Window 'Substance Import Options' being destroyed
+[2018.09.11-15.32.55:842][309]LogMaterial: Display: Missing cached shader map for material Red_Gravel_Iran_MAT, compiling. 
+[2018.09.11-15.32.56:104][309]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.11-15.32.56:104][309]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.11-15.32.56:104][309]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.11-15.33.04:167][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.33.46:522][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.33.46:707][868]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_VX_Mud.Mi_VX_Mud
+[2018.09.11-15.33.52:597][911]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_VX_Mud, compiling. 
+[2018.09.11-15.33.53:613][911]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-15.33.53:626][911]TextureStreamingBuild: Display: Compiling optional shaders took 1.135 seconds.
+[2018.09.11-15.33.58:210][944]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.09.11-15.33.58:286][945]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.11-15.33.58:621][945]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2018.09.11-15.33.58:626][945]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.11-15.33.59:307][946]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2018.09.11-15.33.59:312][946]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.11-15.33.59:569][947]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2018.09.11-15.33.59:576][947]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.11-15.34.09:494][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.34.09:674][292]LogAssetEditorManager: Opening Asset editor for SubstanceInstanceFactory /Game/Substance/Mud/red_gravel_iran.red_gravel_iran
+[2018.09.11-15.34.14:663][481]LogAssetEditorManager: Opening Asset editor for SubstanceInstanceFactory /Game/Substance/Mud/red_gravel_iran.red_gravel_iran
+[2018.09.11-15.34.17:727][595]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/Mud/Red_Gravel_Iran_INST.Red_Gravel_Iran_INST
+[2018.09.11-15.34.39:671][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.35.05:769][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.35.10:158][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.35.41:297][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.35.50:996][147]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.35.54:395][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.36.12:587][972]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.36.23:179][370]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.36.30:050][648]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/Mud/Red_Gravel_Iran_INST.Red_Gravel_Iran_INST
+[2018.09.11-15.36.48:969][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.36.51:081][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.36.51:168][419]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.36.55:644][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.37.03:676][870]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.37.10:068][115]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.37.11:428][159]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST55105E664DDF8BE6D5DAE9B56141E2B7.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST.uasset'
+[2018.09.11-15.37.12:355][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.37.15:956][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.37.20:039][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.37.20:886][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.37.22:940][608]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-15.37.23:031][608]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.37.23:309][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-15.37.23:886][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing44E992264431DDD69BED528A29A35576.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-15.37.23:910][608]LogFileHelpers: Saving map 'Meshing' took 0.856
+[2018.09.11-15.37.23:956][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_VX_Mud" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset" SILENT=true
+[2018.09.11-15.37.23:975][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_VX_Mud4B1C4E3D4879A477A4F8FCBCD79E1326.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset'
+[2018.09.11-15.37.23:983][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/mud_brown" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/mud_brown.uasset" SILENT=true
+[2018.09.11-15.37.23:987][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/mud_brownD2F20AB140B8190827B51EBA1C39B7C0.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/mud_brown.uasset'
+[2018.09.11-15.37.23:993][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/Mud_Brown_INST" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST.uasset" SILENT=true
+[2018.09.11-15.37.23:996][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INSTF7941A7645D378485199A1805F288668.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST.uasset'
+[2018.09.11-15.37.24:026][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_ambientocclusionCE7A39AD4E49FD5DEC4E0890020F659C.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_ambientocclusion.uasset'
+[2018.09.11-15.37.24:055][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_basecolor21E9961D4AF944E96DF4F594ACF81173.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_basecolor.uasset'
+[2018.09.11-15.37.24:075][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_metallic1AC00F604722A76C8994B08AEE25A203.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_metallic.uasset'
+[2018.09.11-15.37.24:105][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_normal966EE00F44BAA1D383E0188A12AE1E28.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_normal.uasset'
+[2018.09.11-15.37.24:137][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_roughnessE1F6E0CD4FC62DCD9852E4BCF4814F4D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_roughness.uasset'
+[2018.09.11-15.37.24:160][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_specular2B368D7B40BC25D8FF2EF2A6A376FBAA.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_specular.uasset'
+[2018.09.11-15.37.24:199][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/Mud_Brown_MAT" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_MAT.uasset" SILENT=true
+[2018.09.11-15.37.24:217][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_MAT908D140346BF70C60D2B7EBD24159E36.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_MAT.uasset'
+[2018.09.11-15.37.24:225][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/red_gravel_iran" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/red_gravel_iran.uasset" SILENT=true
+[2018.09.11-15.37.24:731][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/red_gravel_iran5DDE1DDA43D95CB75487B78ED2E666EC.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/red_gravel_iran.uasset'
+[2018.09.11-15.37.24:788][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_ambientocclB730F8004B69F8939B6A449473E72891.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_ambientocclusion.uasset'
+[2018.09.11-15.37.24:820][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_basecolor82F9D5514BB5D9AF8EF122A5700B8798.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_basecolor.uasset'
+[2018.09.11-15.37.24:841][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_metallic6D0C7B8D43ADBD2B81D2C88D5DB790CA.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_metallic.uasset'
+[2018.09.11-15.37.24:874][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_normal105DAC8D4708BE314B4E11A71907179D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_normal.uasset'
+[2018.09.11-15.37.24:906][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_roughness66A2DA3F4602CD0F16BC66959D11D468.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_roughness.uasset'
+[2018.09.11-15.37.24:928][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_INST_specular6A18B0AA46F25FDE40D6F2A1DD4778CD.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_INST_specular.uasset'
+[2018.09.11-15.37.24:987][608]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_MAT638576604667FB1D8D03599B64B444AA.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_MAT.uasset'
+[2018.09.11-15.37.25:674][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.37.32:684][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.37.32:822][921]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/Mud/Mud_Brown_INST.Mud_Brown_INST
+[2018.09.11-15.38.30:779][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.38.31:805][459]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-15.38.31:843][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.38.32:152][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-15.38.32:650][459]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing4AAF7C2C4137E6F9C50EE0AE38DF6E03.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-15.38.32:692][459]LogFileHelpers: Saving map 'Meshing' took 0.830
+[2018.09.11-15.38.32:696][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/Mud_Brown_INST" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST.uasset" SILENT=true
+[2018.09.11-15.38.32:705][459]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INSTE87E166049560BC8C551A3A49121DEAA.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST.uasset'
+[2018.09.11-15.38.32:756][459]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_basecolor2874CEF947DF5002395932AC086A4CD5.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_basecolor.uasset'
+[2018.09.11-15.38.32:815][459]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_roughnessE15D035B4FD4E926645CC48BB0DEF838.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_roughness.uasset'
+[2018.09.11-15.38.32:843][459]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_INST_specular82717FCC47218D1D853D479F14C476DC.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_INST_specular.uasset'
+[2018.09.11-15.38.38:003][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.39.04:051][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.39.04:190][635]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_VX_Mud.Mi_VX_Mud
+[2018.09.11-15.40.36:676][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_VX_Mud" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset" SILENT=true
+[2018.09.11-15.40.36:773][260]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_VX_Mud, compiling. 
+[2018.09.11-15.40.37:494][260]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-15.40.37:496][260]TextureStreamingBuild: Display: Compiling optional shaders took 0.728 seconds.
+[2018.09.11-15.40.37:579][260]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_VX_MudF0F690B947F4D86571B9ADA84AD6F000.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset'
+[2018.09.11-15.40.40:978][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.40.51:761][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.40.56:679][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.41.19:057][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.41.37:691][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.43.17:971][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.43.36:632][  8]LogMaterial: Warning: Material /Game/Substance/Mud/Red_Gravel_Iran_MAT.Red_Gravel_Iran_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.09.11-15.43.36:654][  8]LogMaterial: Display: Missing cached shader map for material Red_Gravel_Iran_MAT, compiling. 
+[2018.09.11-15.43.36:684][  8]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.11-15.43.36:684][  8]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.11-15.43.36:684][  8]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.11-15.43.36:684][  8]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-15.43.47:658][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.43.58:043][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.43.58:505][767]LogMaterial: Warning: Material /Game/Substance/Mud/Mud_Brown_MAT.Mud_Brown_MAT needed to have new flag set bUsedWithStaticLighting !
+[2018.09.11-15.43.58:532][767]LogMaterial: Display: Missing cached shader map for material Mud_Brown_MAT, compiling. 
+[2018.09.11-15.43.58:625][767]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.11-15.43.58:625][767]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.11-15.43.58:625][767]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.11-15.43.58:625][767]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-15.44.08:123][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.44.09:854][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TunnelCorner (5))
+[2018.09.11-15.44.10:744][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.44.13:028][158]LogEditorViewport: Clicking on Actor (LMB): BP_PillarHeavy_C (PillarHeavy8)
+[2018.09.11-15.44.14:416][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall)
+[2018.09.11-15.44.15:836][161]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TunnelCorner (5))
+[2018.09.11-15.44.16:378][161]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.44.16:789][165]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2018.09.11-15.44.16:907][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.44.21:690][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.44.32:124][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.44.46:065][190]LogEditorViewport: Clicking on Actor (LMB): Ultra_Dynamic_Sky_BP_C (Ultra_Dynamic_Sky_BP)
+[2018.09.11-15.48.26:538][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.48.31:581][474]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing_Auto1400DE13D456A1EEF991852806694BB22.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Maps/Meshing_Auto1.umap'
+[2018.09.11-15.48.31:598][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Meshing' took 0.602
+[2018.09.11-15.48.31:599][474]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.602
+[2018.09.11-15.48.31:606][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud/Mud_Brown_MAT] ([1] browsable assets)...
+[2018.09.11-15.48.31:606][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud/Mud_Brown_MAT]
+[2018.09.11-15.48.31:619][474]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_MAT_Auto1F55B025C4A736C9A904C3094673DBEE4.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud/Mud_Brown_MAT_Auto1.uasset'
+[2018.09.11-15.48.31:621][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Substance/Mud/Red_Gravel_Iran_MAT] ([1] browsable assets)...
+[2018.09.11-15.48.31:621][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/Substance/Mud/Red_Gravel_Iran_MAT]
+[2018.09.11-15.48.31:641][474]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_MAT_Auto19C9CB4AC4F6FC5CA0C0C278F6575DEC3.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Autosaves/Game/Substance/Mud/Red_Gravel_Iran_MAT_Auto1.uasset'
+[2018.09.11-15.48.31:642][474]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.09.11-15.53.05:227][335]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.53.26:030][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.54.01:863][502]LogFactory: FactoryCreateFile: SubstanceInstanceFactory with ReimportSubstanceFactory (0 0 C:\Users\mikey\Dropbox\Docs\Resources\Textures\Substances\rocky_dusty_ground.sbsar)
+[2018.09.11-15.54.06:237][502]LogSlate: Window 'Substance Import Options' being destroyed
+[2018.09.11-15.54.07:586][502]LogMaterial: Display: Missing cached shader map for material Rocky_Dusty_Ground_MAT, compiling. 
+[2018.09.11-15.54.07:619][502]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.11-15.54.07:619][502]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.11-15.54.07:619][502]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.11-15.54.09:580][534]LogEditorViewport: Clicking Background
+[2018.09.11-15.54.12:847][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-15.54.14:177][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.54.35:578][395]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/Rocky_Dusty_Ground_INST.Rocky_Dusty_Ground_INST
+[2018.09.11-15.54.58:317][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.55.05:584][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.55.12:640][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.55.28:780][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.55.43:778][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.56.14:558][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.56.23:593][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.56.44:527][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-15.56.51:215][516]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-15.57.01:614][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.57.10:298][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.57.37:381][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.57.48:640][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.58.26:649][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.58.30:021][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.58.37:621][441]Cmd: TRANSACTION UNDO
+[2018.09.11-15.58.37:621][441]LogEditorTransaction: Undo Vertex Paint
+[2018.09.11-15.58.38:857][462]Cmd: TRANSACTION UNDO
+[2018.09.11-15.58.38:857][462]LogEditorTransaction: Undo Vertex Paint
+[2018.09.11-15.58.40:832][522]Cmd: TRANSACTION UNDO
+[2018.09.11-15.58.40:832][522]LogEditorTransaction: Undo Vertex Paint
+[2018.09.11-15.58.41:387][534]Cmd: TRANSACTION UNDO
+[2018.09.11-15.58.41:387][534]LogEditorTransaction: Undo Vertex Paint
+[2018.09.11-15.58.47:439][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.59.18:820][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.59.39:762][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-15.59.47:792][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.00.21:514][397]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-16.00.46:959][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.00.47:030][396]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-16.00.56:884][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.00.58:216][825]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-16.00.58:256][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-16.01.01:253][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-16.01.01:870][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing719FD917496D73A0354BEF8F042780DB.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-16.01.01:895][825]LogFileHelpers: Saving map 'Meshing' took 3.613
+[2018.09.11-16.01.01:935][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_VX_Mud" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset" SILENT=true
+[2018.09.11-16.01.01:988][825]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_VX_Mud, compiling. 
+[2018.09.11-16.01.02:739][825]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-16.01.02:742][825]TextureStreamingBuild: Display: Compiling optional shaders took 0.781 seconds.
+[2018.09.11-16.01.02:823][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_VX_Mud8AD331154EA71A68929C2CAA77101C0F.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_VX_Mud.uasset'
+[2018.09.11-16.01.02:832][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Mud/Mud_Brown_MAT" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_MAT.uasset" SILENT=true
+[2018.09.11-16.01.02:845][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Brown_MATF5807A0E47FC87B91DDD97B26AF3A131.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Brown_MAT.uasset'
+[2018.09.11-16.01.02:890][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INSTF359EE51476EE109AB2DE4A874D2289A.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST.uasset'
+[2018.09.11-16.01.02:992][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_basecoloBE4D12414EFC4C220E0AFE9116591C7A.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_basecolor.uasset'
+[2018.09.11-16.01.03:086][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_normal2F92DFE941643E48EB251F8E6210909B.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_normal.uasset'
+[2018.09.11-16.01.03:153][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_roughnes1572CE984E34355F3C3ED69A6BF4D0A4.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_roughness.uasset'
+[2018.09.11-16.01.03:215][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mud_Wet_Step_Marks_INST_specular8F27451D4567B3653AB7439295727FB0.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Mud_Wet_Step_Marks_INST_specular.uasset'
+[2018.09.11-16.01.03:281][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Red_Gravel_Iran_MAT7C6FFAE44073EA210ECBB99B6BC02A8D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Mud/Red_Gravel_Iran_MAT.uasset'
+[2018.09.11-16.01.03:292][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/rocky_dusty_ground" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/rocky_dusty_ground.uasset" SILENT=true
+[2018.09.11-16.01.03:644][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/rocky_dusty_ground838BA515463FC37033F2459F09DF2189.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/rocky_dusty_ground.uasset'
+[2018.09.11-16.01.03:660][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INSTFFB2D45845C106F70404A2AEE5784823.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST.uasset'
+[2018.09.11-16.01.03:708][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_ambientoC351F1944267138DA55D108ED0D67096.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_ambientocclusion.uasset'
+[2018.09.11-16.01.03:739][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_basecolo13883DA04D186303B8863CBAC812A3FB.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_basecolor.uasset'
+[2018.09.11-16.01.03:758][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_metallic413B14F8493298787A0C3185EFEAC90D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_metallic.uasset'
+[2018.09.11-16.01.03:793][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_normal486018234CF3FC94212267870ED5EC88.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_normal.uasset'
+[2018.09.11-16.01.03:826][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_roughnes765648BE47B3AE75E30C258E107B5B22.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_roughness.uasset'
+[2018.09.11-16.01.03:852][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_INST_specularFC3C74B64303EB56F1356F80D84083C7.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_INST_specular.uasset'
+[2018.09.11-16.01.03:891][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Substance/Rocky_Dusty_Ground_MAT" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_MAT.uasset" SILENT=true
+[2018.09.11-16.01.03:911][825]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Rocky_Dusty_Ground_MAT61E4966D4730EB6CD5DFBDB27B01C247.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Substance/Rocky_Dusty_Ground_MAT.uasset'
+[2018.09.11-16.01.27:198][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.01.28:652][766]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-16.01.28:685][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-16.01.29:017][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-16.01.29:513][766]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingB98FD7D642461A3279108BBEB458D83F.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-16.01.29:541][766]LogFileHelpers: Saving map 'Meshing' took 0.839
+[2018.09.11-16.01.57:752][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.01.59:329][848]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-16.01.59:412][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-16.01.59:687][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-16.02.00:237][848]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing8B274D8F48DA054E861C4F933E9EAFB2.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-16.02.00:286][848]LogFileHelpers: Saving map 'Meshing' took 0.855
+[2018.09.11-16.02.03:295][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-16.02.04:243][953]LogSlate: Window 'Rocky_Dusty_Ground_INST' being destroyed
+[2018.09.11-16.02.04:298][953]LogSlate: Window 'BeyondHuman - Unreal Editor' being destroyed
+[2018.09.11-16.02.04:337][953]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.11-16.02.09:450][954]Cmd: QUIT_EDITOR
+[2018.09.11-16.02.13:183][954]LogExit: Preparing to exit.
+[2018.09.11-16.02.28:393][954]LogExit: Editor shut down
+[2018.09.11-16.02.29:815][954]LogExit: Transaction tracking system shut down
+[2018.09.11-16.03.24:418][954]LogExit: Object subsystem successfully closed.
+[2018.09.11-16.03.27:235][954]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.11-16.03.27:638][954]LogD3D11RHI: Shutdown
+[2018.09.11-16.03.27:639][954]LogD3D11RHI: CleanupD3DDevice
+[2018.09.11-16.03.29:433][954]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.11-16.03.36:557][954]LogModuleManager: Shutting down and abandoning module MeshBuilder (624)
+[2018.09.11-16.03.36:557][954]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (622)
+[2018.09.11-16.03.36:569][954]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (620)
+[2018.09.11-16.03.36:627][954]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (618)
+[2018.09.11-16.03.36:649][954]LogModuleManager: Shutting down and abandoning module SceneOutliner (616)
+[2018.09.11-16.03.36:649][954]LogModuleManager: Shutting down and abandoning module AddContentDialog (614)
+[2018.09.11-16.03.37:046][954]LogModuleManager: Shutting down and abandoning module WidgetCarousel (613)
+[2018.09.11-16.03.37:046][954]LogModuleManager: Shutting down and abandoning module EditorWidgets (610)
+[2018.09.11-16.03.37:046][954]LogModuleManager: Shutting down and abandoning module CollectionManager (608)
+[2018.09.11-16.03.37:075][954]LogModuleManager: Shutting down and abandoning module StatsViewer (606)
+[2018.09.11-16.03.37:107][954]LogModuleManager: Shutting down and abandoning module FoliageEdit (604)
+[2018.09.11-16.03.37:107][954]LogModuleManager: Shutting down and abandoning module LandscapeEditor (602)
+[2018.09.11-16.03.37:252][954]LogModuleManager: Shutting down and abandoning module MeshPaintMode (600)
+[2018.09.11-16.03.37:253][954]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (598)
+[2018.09.11-16.03.37:253][954]LogModuleManager: Shutting down and abandoning module ActorPickerMode (596)
+[2018.09.11-16.03.37:253][954]LogModuleManager: Shutting down and abandoning module GeometryMode (594)
+[2018.09.11-16.03.37:297][954]LogModuleManager: Shutting down and abandoning module TextureAlignMode (592)
+[2018.09.11-16.03.37:298][954]LogModuleManager: Shutting down and abandoning module BspMode (590)
+[2018.09.11-16.03.37:308][954]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (588)
+[2018.09.11-16.03.37:308][954]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (586)
+[2018.09.11-16.03.37:308][954]LogModuleManager: Shutting down and abandoning module AutomationWorker (584)
+[2018.09.11-16.03.37:338][954]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (582)
+[2018.09.11-16.03.37:338][954]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2018.09.11-16.03.37:372][954]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (578)
+[2018.09.11-16.03.37:409][954]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (576)
+[2018.09.11-16.03.37:487][954]LogModuleManager: Shutting down and abandoning module PlacementMode (575)
+[2018.09.11-16.03.37:506][954]LogModuleManager: Shutting down and abandoning module MaterialEditor (574)
+[2018.09.11-16.03.37:506][954]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (570)
+[2018.09.11-16.03.37:517][954]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (568)
+[2018.09.11-16.03.37:517][954]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (564)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (562)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (560)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (558)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (556)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (554)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (552)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (550)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (548)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (546)
+[2018.09.11-16.03.37:560][954]LogModuleManager: Shutting down and abandoning module CharacterAI (544)
+[2018.09.11-16.03.37:573][954]LogModuleManager: Shutting down and abandoning module SmartSnapping (542)
+[2018.09.11-16.03.37:594][954]LogModuleManager: Shutting down and abandoning module SessionServices (540)
+[2018.09.11-16.03.37:594][954]LogModuleManager: Shutting down and abandoning module ViewportSnapping (538)
+[2018.09.11-16.03.37:594][954]LogModuleManager: Shutting down and abandoning module ViewportInteraction (536)
+[2018.09.11-16.03.37:609][954]LogModuleManager: Shutting down and abandoning module ClothPainter (534)
+[2018.09.11-16.03.37:686][954]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (533)
+[2018.09.11-16.03.37:717][954]LogModuleManager: Shutting down and abandoning module LogVisualizer (530)
+[2018.09.11-16.03.37:812][954]LogModuleManager: Shutting down and abandoning module IntroTutorials (528)
+[2018.09.11-16.03.38:007][954]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (527)
+[2018.09.11-16.03.38:034][954]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (524)
+[2018.09.11-16.03.38:034][954]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (522)
+[2018.09.11-16.03.38:043][954]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (520)
+[2018.09.11-16.03.38:043][954]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (518)
+[2018.09.11-16.03.38:053][954]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (517)
+[2018.09.11-16.03.39:378][954]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (514)
+[2018.09.11-16.03.39:378][954]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (512)
+[2018.09.11-16.03.39:378][954]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (510)
+[2018.09.11-16.03.39:378][954]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (508)
+[2018.09.11-16.03.39:378][954]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
+[2018.09.11-16.03.39:405][954]LogModuleManager: Shutting down and abandoning module MergeActors (504)
+[2018.09.11-16.03.39:447][954]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
+[2018.09.11-16.03.39:477][954]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
+[2018.09.11-16.03.39:488][954]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
+[2018.09.11-16.03.39:488][954]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
+[2018.09.11-16.03.39:501][954]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
+[2018.09.11-16.03.39:521][954]LogModuleManager: Shutting down and abandoning module XmlParser (492)
+[2018.09.11-16.03.39:542][954]LogModuleManager: Shutting down and abandoning module Blutility (490)
+[2018.09.11-16.03.39:564][954]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
+[2018.09.11-16.03.39:564][954]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
+[2018.09.11-16.03.39:579][954]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
+[2018.09.11-16.03.39:580][954]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
+[2018.09.11-16.03.39:619][954]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
+[2018.09.11-16.03.39:645][954]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
+[2018.09.11-16.03.39:669][954]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
+[2018.09.11-16.03.39:677][954]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
+[2018.09.11-16.03.39:695][954]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
+[2018.09.11-16.03.39:766][954]LogModuleManager: Shutting down and abandoning module AutomationController (470)
+[2018.09.11-16.03.39:803][954]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
+[2018.09.11-16.03.39:829][954]LogModuleManager: Shutting down and abandoning module Layers (466)
+[2018.09.11-16.03.39:889][954]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
+[2018.09.11-16.03.39:889][954]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
+[2018.09.11-16.03.39:913][954]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
+[2018.09.11-16.03.39:913][954]LogModuleManager: Shutting down and abandoning module Persona (458)
+[2018.09.11-16.03.40:014][954]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
+[2018.09.11-16.03.40:015][954]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
+[2018.09.11-16.03.40:035][954]LogModuleManager: Shutting down and abandoning module Kismet (452)
+[2018.09.11-16.03.40:335][954]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
+[2018.09.11-16.03.40:432][954]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
+[2018.09.11-16.03.40:456][954]LogModuleManager: Shutting down and abandoning module Toolbox (446)
+[2018.09.11-16.03.40:456][954]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
+[2018.09.11-16.03.40:476][954]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
+[2018.09.11-16.03.40:582][954]LogModuleManager: Shutting down and abandoning module OutputLog (440)
+[2018.09.11-16.03.40:601][954]LogModuleManager: Shutting down and abandoning module GammaUI (438)
+[2018.09.11-16.03.40:615][954]LogModuleManager: Shutting down and abandoning module Documentation (436)
+[2018.09.11-16.03.40:616][954]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2018.09.11-16.03.40:616][954]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2018.09.11-16.03.40:617][954]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2018.09.11-16.03.40:618][954]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2018.09.11-16.03.40:660][954]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2018.09.11-16.03.40:663][954]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2018.09.11-16.03.40:685][954]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2018.09.11-16.03.40:685][954]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
+[2018.09.11-16.03.40:694][954]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2018.09.11-16.03.40:851][954]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2018.09.11-16.03.40:898][954]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (404)
+[2018.09.11-16.03.40:899][954]LogModuleManager: Shutting down and abandoning module SubstanceSource (402)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module SubstanceEditor (400)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.09.11-16.03.40:943][954]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.09.11-16.03.40:967][954]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.09.11-16.03.41:024][954]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.09.11-16.03.41:038][954]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.09.11-16.03.41:038][954]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.09.11-16.03.41:038][954]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.09.11-16.03.41:089][954]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.09.11-16.03.41:089][954]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.09.11-16.03.41:089][954]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.09.11-16.03.41:089][954]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.09.11-16.03.41:102][954]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.09.11-16.03.41:102][954]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.09.11-16.03.41:102][954]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.09.11-16.03.41:102][954]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.09.11-16.03.41:114][954]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.09.11-16.03.41:114][954]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.09.11-16.03.41:114][954]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.09.11-16.03.41:126][954]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.09.11-16.03.41:128][954]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.09.11-16.03.41:128][954]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.09.11-16.03.41:158][954]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.09.11-16.03.41:180][954]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.09.11-16.03.41:180][954]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.09.11-16.03.41:180][954]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.09.11-16.03.41:187][954]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.09.11-16.03.41:187][954]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.09.11-16.03.41:195][954]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.09.11-16.03.41:195][954]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.09.11-16.03.41:195][954]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.09.11-16.03.41:220][954]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.09.11-16.03.41:242][954]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.09.11-16.03.41:260][954]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.09.11-16.03.41:278][954]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.09.11-16.03.41:289][954]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.09.11-16.03.41:289][954]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.09.11-16.03.41:289][954]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.09.11-16.03.41:289][954]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.09.11-16.03.41:336][954]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.09.11-16.03.41:336][954]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2018.09.11-16.03.41:336][954]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2018.09.11-16.03.41:346][954]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2018.09.11-16.03.41:346][954]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2018.09.11-16.03.41:361][954]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.09.11-16.03.41:361][954]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.09.11-16.03.41:361][954]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.09.11-16.03.41:361][954]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.09.11-16.03.41:362][954]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.09.11-16.03.41:462][954]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.09.11-16.03.41:581][954]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2018.09.11-16.03.41:885][954]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.11-16.03.41:885][954]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.11-16.03.41:948][954]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.11-16.03.41:963][954]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.11-16.03.41:963][954]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.11-16.03.41:964][954]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.11-16.03.41:978][954]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.11-16.03.42:086][954]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.11-16.03.42:177][954]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.11-16.03.42:253][954]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.11-16.03.42:254][954]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.11-16.03.42:282][954]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.11-16.03.42:354][954]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.11-16.03.42:374][954]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.11-16.03.42:374][954]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.11-16.03.42:374][954]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.11-16.03.42:386][954]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.11-16.03.42:448][954]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.11-16.03.42:552][954]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.11-16.03.42:584][954]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.11-16.03.42:584][954]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.11-16.03.42:584][954]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.11-16.03.42:712][954]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.11-16.03.42:712][954]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.11-16.03.42:712][954]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.11-16.03.42:712][954]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.11-16.03.42:747][954]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.11-16.03.42:757][954]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.11-16.03.42:757][954]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.11-16.03.42:989][954]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.11-16.03.43:014][954]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.11-16.03.43:072][954]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.11-16.03.43:187][954]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.11-16.03.43:235][954]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.11-16.03.43:294][954]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.11-16.03.43:516][954]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.11-16.03.43:545][954]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.11-16.03.43:690][954]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.11-16.03.43:690][954]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.11-16.03.43:984][954]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.11-16.03.43:984][954]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.11-16.03.44:002][954]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.11-16.03.44:017][954]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.11-16.03.44:017][954]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.11-16.03.44:017][954]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.11-16.03.44:017][954]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.11-16.03.44:018][954]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.11-16.03.44:028][954]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.11-16.03.44:068][954]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.11-16.03.44:154][954]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.11-16.03.44:154][954]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.11-16.03.44:201][954]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.11-16.03.44:297][954]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.11-16.03.44:369][954]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.11-16.03.44:385][954]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.11-16.03.44:402][954]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.11-16.03.52:159][954]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.11-16.03.52:193][954]LogDerivedDataCache: Shutdown
+[2018.09.11-16.03.52:193][954]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.11-16.03.52:234][954]LogXGEController: Cleaning working directory: C:/Users/mikey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.11-16.03.52:249][954]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.11-16.03.52:300][954]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.11-16.03.52:317][954]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.11-16.03.52:382][954]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.11-16.03.52:398][954]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.11-16.03.52:414][954]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.11-16.03.52:443][954]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.11-16.03.52:443][954]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.11-16.03.52:443][954]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.11-16.03.52:443][954]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.11-16.03.52:523][954]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.11-16.03.52:524][954]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.11-16.03.52:524][954]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.11-16.03.52:524][954]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.11-16.03.52:524][954]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.11-16.03.52:524][954]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.11-16.03.52:525][954]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.11-16.03.52:551][954]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.11-16.03.52:571][954]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.11-16.03.52:589][954]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.11-16.03.52:664][954]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.11-16.03.52:693][954]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.11-16.03.53:128][954]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.11-16.03.53:128][954]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.11-16.03.53:354][954]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.11-16.03.53:354][954]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.11-16.03.53:997][954]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.11-16.03.53:997][954]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.11-16.03.54:013][954]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.11-16.03.54:021][954]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.11-16.03.54:030][954]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.11-16.03.54:058][954]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.11-16.03.54:076][954]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.11-16.03.54:084][954]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.11-16.03.54:101][954]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.11-16.03.54:101][954]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.11-16.03.54:101][954]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.11-16.03.54:124][954]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.11-16.03.54:124][954]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.11-16.03.54:124][954]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.11-16.03.54:144][954]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.11-16.03.54:158][954]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.11-16.03.54:159][954]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.11-16.03.54:159][954]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.11-16.03.54:232][954]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.11-16.03.54:279][954]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.11-16.03.54:469][954]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.11-16.03.54:539][954]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.11-16.03.54:539][954]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB83F0027-4134-0373-4B85-B880E4F0ADCD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.0-4212847%2B%2B%2BUE4%2BRelease-4.20&UserID=31027a594662a0b97be24a9d90c3d532%7C9aea4035aae84fc6a50e2bbd0bcac9c5%7C272cb1e4-9c96-41d3-8475-4726cc712451&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.11-16.03.54:667][954]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.11-16.03.55:012][954]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.11-16.03.55:035][954]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.11-16.03.55:036][954]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.11-16.03.55:120][954]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.11-16.03.55:120][954]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.11-16.03.55:165][954]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.11-16.03.55:266][954]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.11-16.03.55:484][954]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.11-16.03.55:558][954]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.11-16.03.55:574][954]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.11-16.03.55:574][954]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.11-16.03.55:574][954]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.11-16.03.55:799][954]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.11-16.03.55:830][954]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.11-16.03.55:848][954]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.11-16.03.55:848][954]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.11-16.03.55:868][954]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.11-16.03.55:911][954]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.11-16.03.56:214][954]LogExit: Exiting.
+[2018.09.11-16.03.58:764][954]Log file closed, 09/11/18 17:03:58
