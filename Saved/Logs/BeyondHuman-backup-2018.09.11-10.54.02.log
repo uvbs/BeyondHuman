@@ -1,0 +1,623 @@
+﻿Log file open, 09/11/18 09:44:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BeyondHuman
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.245912
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.890s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4212847
+LogInit: Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.087s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.11-08.44.33:905][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.11-08.44.33:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.11-08.44.34:035][  0]LogHAL: Display: Platform has ~ 8 GB [8456720384 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.11-08.44.34:039][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.11-08.44.34:039][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.11-08.44.34:130][  0]LogInit: Computer: DESKTOP-MKF8VAK
+[2018.09.11-08.44.34:130][  0]LogInit: User: mikey
+[2018.09.11-08.44.34:130][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.11-08.44.34:130][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2018.09.11-08.44.34:131][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.09.11-08.44.34:131][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.11-08.44.34:131][  0]LogMemory: Process Physical Memory: 99.81 MB used, 99.81 MB peak
+[2018.09.11-08.44.34:131][  0]LogMemory: Process Virtual Memory: 84.81 MB used, 84.81 MB peak
+[2018.09.11-08.44.34:131][  0]LogMemory: Physical Memory: 4757.64 MB used,  3307.31 MB free, 8064.96 MB total
+[2018.09.11-08.44.34:131][  0]LogMemory: Virtual Memory: 4634.14 MB used,  3307.31 MB free, 134217728.00 MB total
+[2018.09.11-08.44.37:565][  0]LogInit: Using OS detected language (en-US).
+[2018.09.11-08.44.37:565][  0]LogInit: Using OS detected locale (en-GB).
+[2018.09.11-08.44.37:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.11-08.44.42:206][  0]LogStreaming: Display: Took  4.642s to InitEngineTextLocalization.
+[2018.09.11-08.44.42:207][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.11-08.44.43:813][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.11-08.44.43:813][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.11-08.44.50:089][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.11-08.44.50:089][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.11-08.44.50:180][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.09.11-08.44.50:180][  0]LogD3D11RHI:       4065/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.09.11-08.44.50:279][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.11-08.44.50:279][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.11-08.44.50:283][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.11-08.44.50:283][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.11-08.44.50:283][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.11-08.44.50:307][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.11-08.44.50:307][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.09.11-08.44.50:331][  0]LogWindows: EnumDisplayDevices:
+[2018.09.11-08.44.50:331][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.09.11-08.44.50:331][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.11-08.44.50:331][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.11-08.44.50:332][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.11-08.44.50:332][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.09.11-08.44.50:332][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.11-08.44.50:332][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.11-08.44.50:332][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
+[2018.09.11-08.44.50:550][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.11-08.44.51:137][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.11-08.44.51:251][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Intermediate/Shaders/WorkingDirectory/16176/).
+[2018.09.11-08.44.51:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mikey/AppData/Local/Temp/UnrealShaderWorkingDir/9ED8D1BC4DCE9EB737F849AB89BBFB7D/'.
+[2018.09.11-08.44.53:996][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.11-08.44.54:073][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.11-08.44.54:143][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.11-08.44.54:184][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.11-08.44.54:316][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.11-08.44.54:540][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.11-08.44.54:790][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.11-08.44.54:877][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.11-08.44.55:051][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:354][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.11-08.44.55:470][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.11-08.44.55:942][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.11-08.44.55:942][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.11-08.44.56:077][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.11-08.44.56:077][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.11-08.44.56:161][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.11-08.44.56:339][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.11-08.44.56:537][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.11-08.44.56:882][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.11-08.44.57:007][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.11-08.44.57:007][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.11-08.45.01:459][  0]LogXGEController: Cleaning working directory: C:/Users/mikey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.11-08.45.01:460][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.11-08.45.01:460][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.11-08.45.01:460][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.11-08.45.11:216][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.11-08.45.25:404][  0]LogDerivedDataCache: Loaded boot cache 14.17s 71MB C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.11-08.45.25:405][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.11-08.45.25:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.11-08.45.25:405][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.11-08.45.25:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.11-08.45.25:405][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.11-08.45.25:590][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.11-08.45.25:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.11-08.45.25:603][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.11-08.45.25:603][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.11-08.45.25:678][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.11-08.45.25:783][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.11-08.45.25:957][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.11-08.45.30:890][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2018.09.11-08.45.37:183][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.11-08.45.41:227][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.11-08.45.42:241][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.11-08.45.42:273][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.11-08.45.42:301][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.11-08.45.42:301][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.11-08.45.42:804][  0]LogNetVersion: BeyondHuman 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 671501493)
+[2018.09.11-08.45.53:834][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.301286 seconds
+[2018.09.11-08.45.53:910][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.11-08.45.53:910][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.11-08.45.53:910][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.11-08.47.18:886][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.09.11-08.47.19:123][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.11-08.47.19:185][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.11-08.47.24:185][  0]SourceControl: Source control is disabled
+[2018.09.11-08.47.24:186][  0]SourceControl: Source control is disabled
+[2018.09.11-08.47.24:819][  0]SourceControl: Source control is disabled
+[2018.09.11-08.47.25:133][  0]SourceControl: Source control is disabled
+[2018.09.11-08.47.31:664][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.11-08.47.32:578][  0]LogOcInput: OculusInput pre-init called
+[2018.09.11-08.47.36:727][  0]LogEngine: Initializing Engine...
+[2018.09.11-08.47.36:848][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.11-08.47.36:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.004 s
+[2018.09.11-08.47.36:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.11-08.47.36:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.11-08.47.36:993][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.010 s
+[2018.09.11-08.47.37:969][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.11-08.47.39:390][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.11-08.47.39:995][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.11-08.47.41:067][  0]LogInit: FAudioDevice initialized.
+[2018.09.11-08.47.41:068][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.11-08.47.42:110][  0]LogDerivedDataCache: Saved boot cache 1.04s 71MB C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.11-08.47.42:142][  0]LogInit: Texture streaming: Enabled
+[2018.09.11-08.47.42:626][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.11-08.47.43:462][  0]LogInit: Transaction tracking system initialized
+[2018.09.11-08.47.45:308][  0]BlueprintLog: New page: Editor Load
+[2018.09.11-08.47.55:888][  0]LocalizationService: Localization service is disabled
+[2018.09.11-08.48.06:255][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.11-08.48.06:321][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/' took 0.03s
+[2018.09.11-08.48.06:321][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.11-08.48.06:327][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.11-08.48.06:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.11-08.48.06:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.11-08.48.06:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.11-08.48.06:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.11-08.48.19:549][  0]SourceControl: Source control is disabled
+[2018.09.11-08.48.19:623][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.11-08.48.19:631][  0]LightingResults: New page: Lighting Build
+[2018.09.11-08.48.19:891][  0]MapCheck: New page: Map Check
+[2018.09.11-08.48.19:891][  0]LightingResults: New page: Lighting Build
+[2018.09.11-08.52.19:523][  0]LogAIModule: Creating AISystem for world Meshing
+[2018.09.11-08.52.20:960][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.09.11-08.52.21:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.11-08.52.23:568][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,263.047ms to complete.
+[2018.09.11-08.52.23:689][  0]LogFileHelpers: Loading map 'Meshing' took 244.085
+[2018.09.11-08.52.29:606][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.11-08.52.29:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.11-08.52.29:685][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.11-08.52.29:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.11-08.52.30:554][  0]LogCollectionManager: Loaded 0 collections in 0.033741 seconds
+[2018.09.11-08.52.30:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Collections/' took 0.01s
+[2018.09.11-08.52.30:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Developers/mikey/Collections/' took 0.01s
+[2018.09.11-08.52.30:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Collections/' took 0.01s
+[2018.09.11-08.52.30:845][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.11-08.52.30:902][  0]LogContentBrowser: Native class hierarchy populated in 0.0390 seconds. Added 2586 classes and 609 folders.
+[2018.09.11-08.52.31:201][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.09.11-08.52.33:263][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.09.11-08.52.33:490][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.09.11-08.52.34:260][  0]LogSlate: Took 0.197576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.11-08.52.34:396][  0]LogSlate: Took 0.118719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.11-08.52.34:846][  0]LogSlate: Took 0.408286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.11-08.52.35:797][  0]LogRenderer: Reallocating scene render targets to support 1016x464 Format 10 NumSamples 1 (Frame:1).
+[2018.09.11-08.52.37:686][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.11-08.52.37:686][  0]LogLoad: (Engine Initialization) Total time: 560.53 seconds
+[2018.09.11-08.52.37:686][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.11-08.52.38:620][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.11-08.52.39:000][  0]LogSlate: Took 0.017658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.11-08.52.39:179][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.09.11-08.52.40:072][  5]LogAssetRegistry: Asset discovery search completed in 429.2056 seconds
+[2018.09.11-08.52.40:099][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.11-08.52.40:099][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000132 seconds (updated 0 objects)
+[2018.09.11-08.52.55:638][ 42]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingAngled)
+[2018.09.11-08.52.57:072][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.52.58:543][ 52]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WallBack)
+[2018.09.11-08.52.58:954][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.53.08:937][366]LogDerivedDataCache: Warning: C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache is very slow (0.35MB/s) when accessing C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/2/TEXTURE_68A083899C6F4316B8CE0E2958EDE2C2_AUTODXT_FFA90E40493DAC5A868465ADEC5BA__C0DE92CD27B4A25EFBCA5304DCE6C7620D302307.udd, consider disabling it.
+[2018.09.11-08.53.18:045][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingAngled_Signs)
+[2018.09.11-08.53.18:645][681]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingAngled_Signs)
+[2018.09.11-08.53.18:742][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.53.19:972][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.53.23:614][834]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingAngled_Signs.fbx]
+[2018.09.11-08.53.24:029][834]LogSlate: Took 0.006437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.11-08.53.24:286][834]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingAngled_Signs.fbx
+[2018.09.11-08.53.24:366][834]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.53.24:892][834]LogStaticMesh: Building static mesh BuildingAngled_Signs...
+[2018.09.11-08.53.24:935][834]LogStaticMesh: Built static mesh [0.04s] /Game/Meshes/BuildingAngled_Signs.BuildingAngled_Signs
+[2018.09.11-08.53.27:180][834]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.09.11-08.53.27:296][834]LogEditorFactories: -- imported successfully
+[2018.09.11-08.53.38:025][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingAngled_Signs)
+[2018.09.11-08.53.42:122][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.53.43:416][350]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingAngled_Signs.fbx]
+[2018.09.11-08.53.43:465][350]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingAngled_Signs.fbx
+[2018.09.11-08.53.43:474][350]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.53.43:507][350]LogStaticMesh: Building static mesh BuildingAngled_Signs...
+[2018.09.11-08.53.43:515][350]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/BuildingAngled_Signs.BuildingAngled_Signs
+[2018.09.11-08.53.43:554][350]LogEditorFactories: -- imported successfully
+[2018.09.11-08.53.56:423][517]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.54.37:971][410]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_SignLetters.Mi_SignLetters
+[2018.09.11-08.54.44:132][465]LogRenderer: Reallocating scene render targets to support 1168x892 Format 10 NumSamples 1 (Frame:5).
+[2018.09.11-08.54.48:152][583]LogMaterial: Display: Missing cached shader map for material MA_Standard, compiling. 
+[2018.09.11-08.54.48:719][584]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.11-08.54.48:719][584]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.11-08.54.48:719][584]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.11-08.54.48:719][584]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-08.55.14:366][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.55.20:310][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.55.20:386][626]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-08.55.21:747][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.55.26:265][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.55.29:179][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_SignLetters" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_SignLetters.uasset" SILENT=true
+[2018.09.11-08.55.29:362][937]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_SignLetters, compiling. 
+[2018.09.11-08.55.30:006][937]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-08.55.30:008][937]TextureStreamingBuild: Display: Compiling optional shaders took 0.691 seconds.
+[2018.09.11-08.55.30:740][937]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_SignLettersED8567B34E3ED3F7AEDA41B1CAD110AC.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_SignLetters.uasset'
+[2018.09.11-08.55.40:331][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.55.40:458][241]LogSlate: Window 'Mi_SignLetters' being destroyed
+[2018.09.11-08.55.40:465][241]LogSlate: Window 'Mi_SignLetters' being destroyed
+[2018.09.11-08.55.50:128][536]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_NeonBlue.Mi_NeonBlue
+[2018.09.11-08.55.57:857][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_NeonBlue" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_NeonBlue.uasset" SILENT=true
+[2018.09.11-08.55.57:985][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_NeonBlue, compiling. 
+[2018.09.11-08.55.58:560][764]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-08.55.58:562][764]TextureStreamingBuild: Display: Compiling optional shaders took 0.616 seconds.
+[2018.09.11-08.55.59:076][764]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_NeonBlue6F95309746E2578EB0458FAA510AACE9.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_NeonBlue.uasset'
+[2018.09.11-08.56.00:820][799]LogRenderer: Reallocating scene render targets to support 1336x924 Format 10 NumSamples 1 (Frame:9).
+[2018.09.11-08.56.01:962][816]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_NeonRed.Mi_NeonRed
+[2018.09.11-08.56.06:902][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-08.56.07:787][951]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingC92062664F7C719E8AE469868A02CA16.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-08.56.07:881][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing_BuiltData" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing_BuiltData.uasset" SILENT=true
+[2018.09.11-08.56.09:074][951]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing_BuiltDataB6FCF6CD4AB2FA9C4BD37D8A10EB246A.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing_BuiltData.uasset'
+[2018.09.11-08.56.17:981][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.56.18:475][238]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.56.18:639][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.56.19:664][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-08.56.22:867][380]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.56.23:091][380]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.56.23:098][380]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.56.23:483][380]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.56.23:499][380]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.56.23:502][380]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.56.23:503][380]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.56.25:021][380]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.09.11-08.56.25:041][380]LogEditorFactories: -- imported successfully
+[2018.09.11-08.56.25:051][380]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.56.25:051][380]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.56.28:949][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.56.37:600][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.56.38:764][873]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.56.38:807][873]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.56.38:815][873]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.56.38:853][873]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.56.38:868][873]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.56.38:909][873]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.56.38:909][873]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.56.38:955][873]LogEditorFactories: -- imported successfully
+[2018.09.11-08.56.38:978][873]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.56.38:978][873]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.56.46:330][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.57.03:306][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.57.09:937][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.57.13:783][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.57.20:064][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.57.22:124][307]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.57.22:170][307]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.57.22:177][307]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.57.22:231][307]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.57.22:246][307]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.57.22:280][307]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.57.22:280][307]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.57.22:317][307]LogEditorFactories: -- imported successfully
+[2018.09.11-08.57.22:333][307]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.57.22:333][307]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.57.28:870][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.57.32:544][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.57.38:551][850]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.57.40:140][850]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2018.09.11-08.57.40:140][850]LogSlate: Took 0.059540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.11-08.57.46:261][ 10]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.57.46:307][ 10]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.57.46:316][ 10]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.57.46:355][ 10]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.57.46:371][ 10]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.57.46:374][ 10]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.57.46:374][ 10]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.57.46:451][ 10]LogEditorFactories: -- imported successfully
+[2018.09.11-08.57.46:471][ 10]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.57.46:471][ 10]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.57.53:263][188]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.57.53:353][188]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.57.53:360][188]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.57.53:429][188]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.57.53:445][188]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.57.53:449][188]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.57.53:450][188]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.57.55:133][188]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2018.09.11-08.57.55:145][188]LogEditorFactories: -- imported successfully
+[2018.09.11-08.57.55:159][188]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.57.55:159][188]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.58.18:816][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.58.24:169][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.58.32:815][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.58.47:101][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-08.58.51:580][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-08.58.53:909][593]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-08.58.53:955][593]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-08.58.53:964][593]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-08.58.54:008][593]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-08.58.54:023][593]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-08.58.54:041][593]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-08.58.54:041][593]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-08.58.54:055][593]LogEditorFactories: -- imported successfully
+[2018.09.11-08.58.54:064][593]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-08.58.54:064][593]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-08.59.05:722][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.02.43:504][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-09.02.45:834][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.02.49:893][831]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx]
+[2018.09.11-09.02.51:676][831]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-09.02.51:770][831]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-09.02.52:234][831]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-09.02.52:307][831]LogStaticMesh: Built static mesh [0.11s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-09.02.52:398][831]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-09.02.52:398][831]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-09.02.52:659][831]LogEditorFactories: -- imported successfully
+[2018.09.11-09.02.52:744][831]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-09.02.52:745][831]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-09.03.04:391][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.03.19:336][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.03.30:098][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall_Signs)
+[2018.09.11-09.03.31:149][750]Cmd: DELETE
+[2018.09.11-09.03.31:153][750]Cmd: ACTOR DELETE
+[2018.09.11-09.03.33:738][750]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.11-09.03.34:531][750]LogEditorActor: Deleted 1 Actors (2.003 secs)
+[2018.09.11-09.03.40:665][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.03.48:956][  3]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.11-09.03.53:674][  3]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_NeonRed, compiling. 
+[2018.09.11-09.04.01:037][  3]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-09.04.01:058][  3]TextureStreamingBuild: Display: Compiling optional shaders took 7.960 seconds.
+[2018.09.11-09.04.01:523][  3]LogSlate: Window 'BuildingTall_Signs*' being destroyed
+[2018.09.11-09.06.13:128][ 43]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx)
+[2018.09.11-09.06.13:278][ 43]LogFbx: Loading FBX Scene from ../../../../../../Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/BuildingTall_Signs.fbx
+[2018.09.11-09.06.13:301][ 43]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-09.06.19:001][ 43]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.11-09.06.19:525][ 43]LogStaticMesh: Building static mesh BuildingTall_Signs...
+[2018.09.11-09.06.19:694][ 43]LogStaticMesh: Built static mesh [0.28s] /Game/Meshes/BuildingTall_Signs.BuildingTall_Signs
+[2018.09.11-09.06.19:900][ 43]LogStaticMesh: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.09.11-09.06.19:900][ 43]LogStaticMesh: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.09.11-09.06.20:140][ 43]FBXImport: Warning: BuildingTall_Signs has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.09.11-09.06.20:140][ 43]FBXImport: Warning: BuildingTall_Signs has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.09.11-09.06.26:834][103]LogSlate: Window 'Message Log' being destroyed
+[2018.09.11-09.06.26:852][103]LogSlate: Window 'Message Log' being destroyed
+[2018.09.11-09.06.29:188][122]LogActorFactory: Actor Factory created BuildingTall_Signs
+[2018.09.11-09.06.29:684][122]LogActorFactory: Actor Factory created BuildingTall_Signs
+[2018.09.11-09.06.30:149][122]LogActorFactory: Actor Factory created BuildingTall_Signs
+[2018.09.11-09.06.37:562][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.06.42:877][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.06.50:671][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.07.00:099][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.07.03:715][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.07.11:211][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.07.12:513][ 84]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-09.07.17:531][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-09.07.20:233][ 84]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingBFC127BE439D4AA413360A9E957050F2.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-09.07.20:423][ 84]LogFileHelpers: Saving map 'Meshing' took 7.834
+[2018.09.11-09.07.20:565][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_NeonRed" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_NeonRed.uasset" SILENT=true
+[2018.09.11-09.07.20:698][ 84]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_NeonRed9A48D33F4B7924BDBAA223889733ED74.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_NeonRed.uasset'
+[2018.09.11-09.07.20:819][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingAngled_Signs" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/BuildingAngled_Signs.uasset" SILENT=true
+[2018.09.11-09.07.21:057][ 84]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/BuildingAngled_SignsB1A4E6094191D52F60F94789F71E69C8.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/BuildingAngled_Signs.uasset'
+[2018.09.11-09.07.21:201][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BuildingTall_Signs" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/BuildingTall_Signs.uasset" SILENT=true
+[2018.09.11-09.07.21:271][ 84]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/BuildingTall_Signs0E7AE1B74682C97CCF32B19067E1A192.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/BuildingTall_Signs.uasset'
+[2018.09.11-09.07.22:246][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingAngled)
+[2018.09.11-09.07.58:719][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WalkwayUpper)
+[2018.09.11-09.08.00:197][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.08.06:144][241]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Mi_SignLetters.Mi_SignLetters
+[2018.09.11-09.08.49:732][494]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.11-09.08.52:165][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mi_SignLetters" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_SignLetters.uasset" SILENT=true
+[2018.09.11-09.08.52:257][560]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Mi_SignLetters, compiling. 
+[2018.09.11-09.08.54:747][560]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.11-09.08.54:753][560]TextureStreamingBuild: Display: Compiling optional shaders took 2.527 seconds.
+[2018.09.11-09.08.54:902][560]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Mi_SignLetters53DEAD39439E3F0CE8648085F6A56FC3.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Materials/Mi_SignLetters.uasset'
+[2018.09.11-09.09.32:809][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (5))
+[2018.09.11-09.09.35:034][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (4))
+[2018.09.11-09.09.37:465][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.09.38:024][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (5))
+[2018.09.11-09.09.41:512][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CrateLRG)
+[2018.09.11-09.09.43:621][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (5))
+[2018.09.11-09.09.46:549][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (4))
+[2018.09.11-09.09.49:832][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Barrel (5))
+[2018.09.11-09.09.53:342][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.09.59:859][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingSmall)
+[2018.09.11-09.10.09:227][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.10.10:293][540]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-09.10.10:607][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-09.10.11:469][540]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Meshing0B05C67B48C5C9D7EBE9D2A2ECFEC26B.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-09.10.11:520][540]LogFileHelpers: Saving map 'Meshing' took 1.179
+[2018.09.11-09.10.34:435][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.10.34:731][680]LogSlate: Window 'Mi_SignLetters' being destroyed
+[2018.09.11-09.10.34:737][680]LogSlate: Window 'Mi_SignLetters' being destroyed
+[2018.09.11-09.10.48:455][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.10.56:128][873]LogRenderer: Reallocating scene render targets to support 1432x924 Format 9 NumSamples 1 (Frame:14939).
+[2018.09.11-09.12.32:341][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallRight)
+[2018.09.11-09.12.37:297][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.17.43:522][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.17.53:272][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.17.53:448][476]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/Platform.fbx)
+[2018.09.11-09.17.53:799][476]LogFbx: Loading FBX Scene from ../../../../../../Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/Platform.fbx
+[2018.09.11-09.17.53:962][476]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-09.18.11:861][476]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.09.11-09.18.17:541][476]LogStaticMesh: Building static mesh Platform...
+[2018.09.11-09.18.18:648][476]LogStaticMesh: Built static mesh [1.11s] /Game/Meshes/Platform.Platform
+[2018.09.11-09.18.21:778][536]LogActorFactory: Actor Factory created Platform
+[2018.09.11-09.18.23:316][572]LogActorFactory: Actor Factory created Platform
+[2018.09.11-09.19.35:619][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.19.37:566][221]LogEditorFactories: Performing atomic reimport of [C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/Platform.fbx]
+[2018.09.11-09.19.37:710][221]LogFbx: Loading FBX Scene from C:/Users/mikey/Dropbox/Docs/Projects/Beyond Human/Exports/Buildings/Platform.fbx
+[2018.09.11-09.19.37:722][221]LogFbx: FBX Scene Loaded Succesfully
+[2018.09.11-09.19.38:741][221]LogStaticMesh: Building static mesh Platform...
+[2018.09.11-09.19.39:428][221]LogStaticMesh: Built static mesh [0.69s] /Game/Meshes/Platform.Platform
+[2018.09.11-09.19.39:576][221]LogEditorFactories: -- imported successfully
+[2018.09.11-09.19.44:469][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.20.31:938][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.20.34:213][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallPillar (14)9)
+[2018.09.11-09.20.36:258][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingSmall)
+[2018.09.11-09.20.37:150][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingSmall)
+[2018.09.11-09.20.41:467][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.20.46:929][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.20.52:918][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall)
+[2018.09.11-09.20.53:463][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.20.56:299][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingAngled)
+[2018.09.11-09.21.08:317][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform)
+[2018.09.11-09.21.10:807][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform)
+[2018.09.11-09.21.15:617][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.21.22:398][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.21.28:249][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BuildingTall)
+[2018.09.11-09.21.29:159][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2018.09.11-09.21.30:370][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.21.32:215][100]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-09.21.32:245][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.21.43:512][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-09.21.46:858][100]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingC3F1A55344B2D283FA14FFAA62FC3C7A.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-09.21.46:886][100]LogFileHelpers: Saving map 'Meshing' took 14.624
+[2018.09.11-09.21.46:938][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Platform" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/Platform.uasset" SILENT=true
+[2018.09.11-09.21.47:052][100]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/Platform5DA9AFD64F62DB4251927E852FA45022.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Meshes/Platform.uasset'
+[2018.09.11-09.21.57:886][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.22.08:584][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.22.31:277][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WallFront)
+[2018.09.11-09.22.38:273][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.22.39:463][835]LogSlate: Window 'Save Content' being destroyed
+[2018.09.11-09.22.39:491][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.11-09.22.39:765][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Meshing" FILE="../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.11-09.22.40:267][835]LogSavePackage: Moving '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Saved/MeshingBF5A6CCE4F2ECE48FD6F4EB4EACCC73D.tmp' to '../../../../../../Users/mikey/Documents/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap'
+[2018.09.11-09.22.40:298][835]LogFileHelpers: Saving map 'Meshing' took 0.785
+[2018.09.11-09.22.46:389][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.31.52:729][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.11-09.31.57:284][724]LogSlate: Window 'BeyondHuman - Unreal Editor' being destroyed
+[2018.09.11-09.32.04:091][725]Cmd: QUIT_EDITOR
+[2018.09.11-09.32.06:925][725]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.11-09.32.11:750][725]LogExit: Preparing to exit.
