@@ -1,0 +1,391 @@
+﻿Log file open, 09/13/18 21:15:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BeyondHuman
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.299328
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.111s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4212847
+LogInit: Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Jul 14 2018 09:51:14
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.13-20.15.18:771][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.13-20.15.18:771][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.13-20.15.18:789][  0]LogHAL: Display: Platform has ~ 16 GB [17160146944 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.13-20.15.18:789][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.13-20.15.18:789][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.13-20.15.18:790][  0]LogInit: Computer: DESKTOP-45O6R3R
+[2018.09.13-20.15.18:790][  0]LogInit: User: mikey
+[2018.09.13-20.15.18:790][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.13-20.15.18:790][  0]LogInit: High frequency timer resolution =3.331194 MHz
+[2018.09.13-20.15.18:790][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.09.13-20.15.18:790][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.13-20.15.18:790][  0]LogMemory: Process Physical Memory: 99.96 MB used, 99.96 MB peak
+[2018.09.13-20.15.18:790][  0]LogMemory: Process Virtual Memory: 91.02 MB used, 91.02 MB peak
+[2018.09.13-20.15.18:790][  0]LogMemory: Physical Memory: 5236.23 MB used,  11128.96 MB free, 16365.19 MB total
+[2018.09.13-20.15.18:790][  0]LogMemory: Virtual Memory: 4640.43 MB used,  11128.96 MB free, 134217728.00 MB total
+[2018.09.13-20.15.18:817][  0]LogInit: Using OS detected language (en-US).
+[2018.09.13-20.15.18:817][  0]LogInit: Using OS detected locale (en-GB).
+[2018.09.13-20.15.18:818][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.13-20.15.19:263][  0]LogStreaming: Display: Took  0.447s to InitEngineTextLocalization.
+[2018.09.13-20.15.19:263][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.13-20.15.19:305][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.13-20.15.19:305][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.13-20.15.19:644][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.13-20.15.19:644][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.13-20.15.19:721][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.09.13-20.15.19:721][  0]LogD3D11RHI:       4058/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.09.13-20.15.19:724][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.13-20.15.19:724][  0]LogD3D11RHI:       0/0/8182 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.13-20.15.19:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.13-20.15.19:733][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.13-20.15.19:733][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.13-20.15.19:733][  0]LogWindows: EnumDisplayDevices:
+[2018.09.13-20.15.19:733][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.09.13-20.15.19:734][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.09.13-20.15.19:734][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.09.13-20.15.19:735][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.09.13-20.15.19:735][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.13-20.15.19:735][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.09.13-20.15.19:735][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.09.13-20.15.19:735][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.09.13-20.15.19:735][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2018.09.13-20.15.19:787][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.13-20.15.19:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.13-20.15.19:968][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Unreal Projects/BeyondHuman/Intermediate/Shaders/WorkingDirectory/2024/).
+[2018.09.13-20.15.19:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mikey/AppData/Local/Temp/UnrealShaderWorkingDir/72CFAE60428E266D433B17B13AA8EB64/'.
+[2018.09.13-20.15.20:282][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.13-20.15.20:297][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.13-20.15.20:314][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.13-20.15.20:329][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.13-20.15.20:346][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.13-20.15.20:363][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.13-20.15.20:380][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.13-20.15.20:398][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.13-20.15.20:409][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:505][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-20.15.20:507][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.13-20.15.20:572][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.13-20.15.20:572][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.13-20.15.20:607][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.13-20.15.20:607][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.13-20.15.20:624][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.13-20.15.20:648][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.13-20.15.20:663][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.13-20.15.20:682][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.13-20.15.20:695][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.13-20.15.20:695][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.13-20.15.20:764][  0]LogXGEController: Cleaning working directory: C:/Users/mikey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.13-20.15.20:764][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.13-20.15.20:764][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.13-20.15.20:764][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.13-20.15.21:727][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.13-20.15.21:797][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.13-20.15.21:798][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.13-20.15.21:798][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.13-20.15.21:798][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.13-20.15.21:798][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projects/BeyondHuman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.13-20.15.21:798][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.13-20.15.21:815][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.13-20.15.21:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mikey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.13-20.15.21:828][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.13-20.15.21:828][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.13-20.15.21:853][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.13-20.15.21:854][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.13-20.15.21:855][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.13-20.15.21:939][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.09.13-20.15.22:389][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.13-20.15.22:563][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.13-20.15.22:568][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.13-20.15.22:568][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.13-20.15.22:568][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.13-20.15.22:568][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.13-20.15.22:598][  0]LogNetVersion: BeyondHuman 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 671501493)
+[2018.09.13-20.15.23:180][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.102308 seconds
+[2018.09.13-20.15.23:187][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.13-20.15.23:187][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.13-20.15.23:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.13-20.15.24:214][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.09.13-20.15.24:218][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.13-20.15.24:231][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.13-20.15.24:396][  0]SourceControl: Source control is disabled
+[2018.09.13-20.15.24:396][  0]SourceControl: Source control is disabled
+[2018.09.13-20.15.24:397][  0]SourceControl: Source control is disabled
+[2018.09.13-20.15.24:398][  0]SourceControl: Source control is disabled
+[2018.09.13-20.15.24:583][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.13-20.15.24:705][  0]LogOcInput: OculusInput pre-init called
+[2018.09.13-20.15.24:854][  0]LogEngine: Initializing Engine...
+[2018.09.13-20.15.24:877][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.09.13-20.15.24:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.13-20.15.24:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.13-20.15.24:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.13-20.15.24:879][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.13-20.15.25:119][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.13-20.15.25:139][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.13-20.15.25:184][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.13-20.15.25:200][  0]LogInit: FAudioDevice initialized.
+[2018.09.13-20.15.25:200][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.13-20.15.25:285][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/mikey/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.13-20.15.25:285][  0]LogInit: Texture streaming: Enabled
+[2018.09.13-20.15.25:306][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.13-20.15.25:306][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={3BCC9836-468E-0B7E-5A5B-83899641F6E5}
+[2018.09.13-20.15.25:318][  0]LogInit: Transaction tracking system initialized
+[2018.09.13-20.15.25:343][  0]BlueprintLog: New page: Editor Load
+[2018.09.13-20.15.25:428][  0]LocalizationService: Localization service is disabled
+[2018.09.13-20.15.25:736][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.13-20.15.25:736][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.13-20.15.25:736][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.13-20.15.25:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.13-20.15.25:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.13-20.15.25:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.13-20.15.25:736][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.13-20.15.25:871][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/' took 0.02s
+[2018.09.13-20.15.25:871][  0]SourceControl: Source control is disabled
+[2018.09.13-20.15.25:872][  0]Cmd: MAP LOAD FILE="E:/Unreal Projects/BeyondHuman/Content/Maps/Meshing.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.13-20.15.25:872][  0]LightingResults: New page: Lighting Build
+[2018.09.13-20.15.25:875][  0]MapCheck: New page: Map Check
+[2018.09.13-20.15.25:875][  0]LightingResults: New page: Lighting Build
+[2018.09.13-20.15.30:560][  0]LogAIModule: Creating AISystem for world Meshing
+[2018.09.13-20.15.30:679][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.13-20.15.30:713][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.13-20.15.30:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 224.141ms to complete.
+[2018.09.13-20.15.30:938][  0]LogFileHelpers: Loading map 'Meshing' took 5.066
+[2018.09.13-20.15.31:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.15.31:086][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.15.31:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.15.31:103][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-20.15.31:110][  0]LogCollectionManager: Loaded 0 collections in 0.001473 seconds
+[2018.09.13-20.15.31:162][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Saved/Collections/' took 0.01s
+[2018.09.13-20.15.31:162][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Developers/mikey/Collections/' took 0.01s
+[2018.09.13-20.15.31:162][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/BeyondHuman/Content/Collections/' took 0.01s
+[2018.09.13-20.15.31:163][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.13-20.15.31:174][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2586 classes and 609 folders.
+[2018.09.13-20.15.31:182][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.13-20.15.31:234][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.13-20.15.31:240][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.13-20.15.31:259][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.13-20.15.31:262][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.13-20.15.31:270][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.13-20.15.31:414][  0]LogRenderer: Reallocating scene render targets to support 1236x592 Format 10 NumSamples 1 (Frame:1).
+[2018.09.13-20.15.31:684][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.13-20.15.31:684][  0]LogLoad: (Engine Initialization) Total time: 14.74 seconds
+[2018.09.13-20.15.31:684][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.13-20.15.31:721][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.13-20.15.31:794][  0]LogRenderer: Reallocating scene render targets to support 1236x608 Format 10 NumSamples 1 (Frame:2).
+[2018.09.13-20.15.31:794][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.13-20.15.31:829][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.09.13-20.15.31:899][  2]LogAssetRegistry: Asset discovery search completed in 9.9826 seconds
+[2018.09.13-20.15.31:902][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.13-20.15.31:902][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2018.09.13-20.15.33:228][  6]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.13-20.15.40:501][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.15.43:522][397]LogRenderer: Reallocating scene render targets to support 1236x608 Format 9 NumSamples 1 (Frame:161).
+[2018.09.13-20.15.43:558][399]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.13-20.15.51:503][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.15.58:298][852]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST.Bees_Pattern_Plastic_Orange_INST
+[2018.09.13-20.16.49:734][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.17.14:301][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.17.22:463][359]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.13-20.17.23:771][462]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTD3570BA44D719E43B29A81B3E327DB1A.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST.uasset'
+[2018.09.13-20.17.30:127][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.17.33:539][261]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.13-20.17.33:551][262]LogRenderer: Reallocating scene render targets to support 1236x608 Format 10 NumSamples 1 (Frame:7775).
+[2018.09.13-20.17.35:096][377]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WalkwayUpper)
+[2018.09.13-20.17.35:237][377]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.17.36:676][424]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WalkwayUpper)
+[2018.09.13-20.17.36:744][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.17.53:714][971]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.17.56:744][122]LogRenderer: Reallocating scene render targets to support 1236x608 Format 9 NumSamples 1 (Frame:8350).
+[2018.09.13-20.17.56:744][122]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.13-20.18.02:812][523]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.13-20.18.04:042][605]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTD7AE85104135C37EC92716BCA783AE7D.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST.uasset'
+[2018.09.13-20.18.06:464][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.18.09:290][906]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.13-20.18.09:322][908]LogRenderer: Reallocating scene render targets to support 1236x608 Format 10 NumSamples 1 (Frame:8744).
+[2018.09.13-20.18.24:152][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.18.25:108][439]LogSlate: Window 'Save Content' being destroyed
+[2018.09.13-20.18.25:141][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.18.25:185][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INST7D10AAAC47D6CFCB9E12019C0C3FF750.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_2k_mask.uasset'
+[2018.09.13-20.18.25:215][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTCE4874C2436D2A50010B8C973411E83A.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_ambientocclusion.uasset'
+[2018.09.13-20.18.25:254][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTF7F9D49D4527A3196C641AA1BB326CE7.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_basecolor.uasset'
+[2018.09.13-20.18.25:274][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTC1B11C1A43F3EE0B856BE99DB436A73B.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_metallic.uasset'
+[2018.09.13-20.18.25:317][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INST706B1EA8448EBA77B83D49A038026F86.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_normal.uasset'
+[2018.09.13-20.18.25:351][439]LogSavePackage: Moving 'E:/Unreal Projects/BeyondHuman/Saved/Bees_Pattern_Plastic_Orange_INSTD409E59B4C8EA6CD82A7EDB4898D2AF0.tmp' to 'E:/Unreal Projects/BeyondHuman/Content/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Orange_INST_roughness.uasset'
+[2018.09.13-20.18.28:624][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.18.31:751][707]LogRenderer: Reallocating scene render targets to support 1236x608 Format 9 NumSamples 1 (Frame:9308).
+[2018.09.13-20.18.31:816][711]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.13-20.18.34:232][870]LogAssetEditorManager: Opening Asset editor for SubstanceGraphInstance /Game/Substance/BeePatternPlastic/Bees_Pattern_Plastic_Green_INST.Bees_Pattern_Plastic_Green_INST
+[2018.09.13-20.18.39:660][165]LogSlate: Window 'Color Picker' being destroyed
+[2018.09.13-20.18.56:040][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.19.01:752][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-20.19.25:354][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-20.19.29:481][483]LogThreadingWindows: Error: Runnable thread RenderThread 2 crashed.
+[2018.09.13-20.19.29:481][483]LogWindows: Error: === Critical error: ===
+[2018.09.13-20.19.29:481][483]LogWindows: Error: 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: Assertion failed: (GIsCriticalError || !NumMarks) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Misc/MemStack.h] [Line: 89] 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: 
+[2018.09.13-20.19.29:481][483]LogWindows: Error: Crash in runnable thread RenderThread 2
+[2018.09.13-20.19.29:491][483]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.09.13-20.19.29:491][483]LogWindows: Error: HandleError re-entered.
+[2018.09.13-20.19.29:491][483]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.09.13-20.19.29:502][483]Log file closed, 09/13/18 21:19:29
